@@ -1,0 +1,5980 @@
+[
+  {
+    "NAME": "Baldwin County, Alabama",
+    "state": "01",
+    "county": "003",
+    "county_name": "Baldwin County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Calhoun County, Alabama",
+    "state": "01",
+    "county": "015",
+    "county_name": "Calhoun County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Cullman County, Alabama",
+    "state": "01",
+    "county": "043",
+    "county_name": "Cullman County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "DeKalb County, Alabama",
+    "state": "01",
+    "county": "049",
+    "county_name": "DeKalb County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Elmore County, Alabama",
+    "state": "01",
+    "county": "051",
+    "county_name": "Elmore County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Etowah County, Alabama",
+    "state": "01",
+    "county": "055",
+    "county_name": "Etowah County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Houston County, Alabama",
+    "state": "01",
+    "county": "069",
+    "county_name": "Houston County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Jefferson County, Alabama",
+    "state": "01",
+    "county": "073",
+    "county_name": "Jefferson County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Lauderdale County, Alabama",
+    "state": "01",
+    "county": "077",
+    "county_name": "Lauderdale County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Lee County, Alabama",
+    "state": "01",
+    "county": "081",
+    "county_name": "Lee County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Limestone County, Alabama",
+    "state": "01",
+    "county": "083",
+    "county_name": "Limestone County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Madison County, Alabama",
+    "state": "01",
+    "county": "089",
+    "county_name": "Madison County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Marshall County, Alabama",
+    "state": "01",
+    "county": "095",
+    "county_name": "Marshall County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Mobile County, Alabama",
+    "state": "01",
+    "county": "097",
+    "county_name": "Mobile County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Montgomery County, Alabama",
+    "state": "01",
+    "county": "101",
+    "county_name": "Montgomery County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Morgan County, Alabama",
+    "state": "01",
+    "county": "103",
+    "county_name": "Morgan County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "St. Clair County, Alabama",
+    "state": "01",
+    "county": "115",
+    "county_name": "St. Clair County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Shelby County, Alabama",
+    "state": "01",
+    "county": "117",
+    "county_name": "Shelby County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Talladega County, Alabama",
+    "state": "01",
+    "county": "121",
+    "county_name": "Talladega County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Tuscaloosa County, Alabama",
+    "state": "01",
+    "county": "125",
+    "county_name": "Tuscaloosa County",
+    "state_name": "Alabama"
+  },
+  {
+    "NAME": "Anchorage Municipality, Alaska",
+    "state": "02",
+    "county": "020",
+    "county_name": "Anchorage Municipality",
+    "state_name": "Alaska"
+  },
+  {
+    "NAME": "Fairbanks North Star Borough, Alaska",
+    "state": "02",
+    "county": "090",
+    "county_name": "Fairbanks North Star Borough",
+    "state_name": "Alaska"
+  },
+  {
+    "NAME": "Matanuska-Susitna Borough, Alaska",
+    "state": "02",
+    "county": "170",
+    "county_name": "Matanuska-Susitna Borough",
+    "state_name": "Alaska"
+  },
+  {
+    "NAME": "Apache County, Arizona",
+    "state": "04",
+    "county": "001",
+    "county_name": "Apache County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Cochise County, Arizona",
+    "state": "04",
+    "county": "003",
+    "county_name": "Cochise County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Coconino County, Arizona",
+    "state": "04",
+    "county": "005",
+    "county_name": "Coconino County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Maricopa County, Arizona",
+    "state": "04",
+    "county": "013",
+    "county_name": "Maricopa County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Mohave County, Arizona",
+    "state": "04",
+    "county": "015",
+    "county_name": "Mohave County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Navajo County, Arizona",
+    "state": "04",
+    "county": "017",
+    "county_name": "Navajo County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Pima County, Arizona",
+    "state": "04",
+    "county": "019",
+    "county_name": "Pima County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Pinal County, Arizona",
+    "state": "04",
+    "county": "021",
+    "county_name": "Pinal County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Yavapai County, Arizona",
+    "state": "04",
+    "county": "025",
+    "county_name": "Yavapai County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Yuma County, Arizona",
+    "state": "04",
+    "county": "027",
+    "county_name": "Yuma County",
+    "state_name": "Arizona"
+  },
+  {
+    "NAME": "Benton County, Arkansas",
+    "state": "05",
+    "county": "007",
+    "county_name": "Benton County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Craighead County, Arkansas",
+    "state": "05",
+    "county": "031",
+    "county_name": "Craighead County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Faulkner County, Arkansas",
+    "state": "05",
+    "county": "045",
+    "county_name": "Faulkner County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Garland County, Arkansas",
+    "state": "05",
+    "county": "051",
+    "county_name": "Garland County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Jefferson County, Arkansas",
+    "state": "05",
+    "county": "069",
+    "county_name": "Jefferson County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Lonoke County, Arkansas",
+    "state": "05",
+    "county": "085",
+    "county_name": "Lonoke County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Pulaski County, Arkansas",
+    "state": "05",
+    "county": "119",
+    "county_name": "Pulaski County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Saline County, Arkansas",
+    "state": "05",
+    "county": "125",
+    "county_name": "Saline County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Sebastian County, Arkansas",
+    "state": "05",
+    "county": "131",
+    "county_name": "Sebastian County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Washington County, Arkansas",
+    "state": "05",
+    "county": "143",
+    "county_name": "Washington County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "White County, Arkansas",
+    "state": "05",
+    "county": "145",
+    "county_name": "White County",
+    "state_name": "Arkansas"
+  },
+  {
+    "NAME": "Alameda County, California",
+    "state": "06",
+    "county": "001",
+    "county_name": "Alameda County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Butte County, California",
+    "state": "06",
+    "county": "007",
+    "county_name": "Butte County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Contra Costa County, California",
+    "state": "06",
+    "county": "013",
+    "county_name": "Contra Costa County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "El Dorado County, California",
+    "state": "06",
+    "county": "017",
+    "county_name": "El Dorado County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Fresno County, California",
+    "state": "06",
+    "county": "019",
+    "county_name": "Fresno County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Humboldt County, California",
+    "state": "06",
+    "county": "023",
+    "county_name": "Humboldt County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Imperial County, California",
+    "state": "06",
+    "county": "025",
+    "county_name": "Imperial County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Kern County, California",
+    "state": "06",
+    "county": "029",
+    "county_name": "Kern County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Kings County, California",
+    "state": "06",
+    "county": "031",
+    "county_name": "Kings County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Lake County, California",
+    "state": "06",
+    "county": "033",
+    "county_name": "Lake County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Los Angeles County, California",
+    "state": "06",
+    "county": "037",
+    "county_name": "Los Angeles County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Madera County, California",
+    "state": "06",
+    "county": "039",
+    "county_name": "Madera County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Marin County, California",
+    "state": "06",
+    "county": "041",
+    "county_name": "Marin County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Mendocino County, California",
+    "state": "06",
+    "county": "045",
+    "county_name": "Mendocino County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Merced County, California",
+    "state": "06",
+    "county": "047",
+    "county_name": "Merced County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Monterey County, California",
+    "state": "06",
+    "county": "053",
+    "county_name": "Monterey County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Napa County, California",
+    "state": "06",
+    "county": "055",
+    "county_name": "Napa County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Nevada County, California",
+    "state": "06",
+    "county": "057",
+    "county_name": "Nevada County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Orange County, California",
+    "state": "06",
+    "county": "059",
+    "county_name": "Orange County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Placer County, California",
+    "state": "06",
+    "county": "061",
+    "county_name": "Placer County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Riverside County, California",
+    "state": "06",
+    "county": "065",
+    "county_name": "Riverside County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Sacramento County, California",
+    "state": "06",
+    "county": "067",
+    "county_name": "Sacramento County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Benito County, California",
+    "state": "06",
+    "county": "069",
+    "county_name": "San Benito County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Bernardino County, California",
+    "state": "06",
+    "county": "071",
+    "county_name": "San Bernardino County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Diego County, California",
+    "state": "06",
+    "county": "073",
+    "county_name": "San Diego County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Francisco County, California",
+    "state": "06",
+    "county": "075",
+    "county_name": "San Francisco County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Joaquin County, California",
+    "state": "06",
+    "county": "077",
+    "county_name": "San Joaquin County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Luis Obispo County, California",
+    "state": "06",
+    "county": "079",
+    "county_name": "San Luis Obispo County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "San Mateo County, California",
+    "state": "06",
+    "county": "081",
+    "county_name": "San Mateo County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Santa Barbara County, California",
+    "state": "06",
+    "county": "083",
+    "county_name": "Santa Barbara County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Santa Clara County, California",
+    "state": "06",
+    "county": "085",
+    "county_name": "Santa Clara County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Santa Cruz County, California",
+    "state": "06",
+    "county": "087",
+    "county_name": "Santa Cruz County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Shasta County, California",
+    "state": "06",
+    "county": "089",
+    "county_name": "Shasta County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Solano County, California",
+    "state": "06",
+    "county": "095",
+    "county_name": "Solano County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Sonoma County, California",
+    "state": "06",
+    "county": "097",
+    "county_name": "Sonoma County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Stanislaus County, California",
+    "state": "06",
+    "county": "099",
+    "county_name": "Stanislaus County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Sutter County, California",
+    "state": "06",
+    "county": "101",
+    "county_name": "Sutter County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Tehama County, California",
+    "state": "06",
+    "county": "103",
+    "county_name": "Tehama County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Tulare County, California",
+    "state": "06",
+    "county": "107",
+    "county_name": "Tulare County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Ventura County, California",
+    "state": "06",
+    "county": "111",
+    "county_name": "Ventura County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Yolo County, California",
+    "state": "06",
+    "county": "113",
+    "county_name": "Yolo County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Yuba County, California",
+    "state": "06",
+    "county": "115",
+    "county_name": "Yuba County",
+    "state_name": "California"
+  },
+  {
+    "NAME": "Adams County, Colorado",
+    "state": "08",
+    "county": "001",
+    "county_name": "Adams County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Arapahoe County, Colorado",
+    "state": "08",
+    "county": "005",
+    "county_name": "Arapahoe County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Boulder County, Colorado",
+    "state": "08",
+    "county": "013",
+    "county_name": "Boulder County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Broomfield County, Colorado",
+    "state": "08",
+    "county": "014",
+    "county_name": "Broomfield County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Denver County, Colorado",
+    "state": "08",
+    "county": "031",
+    "county_name": "Denver County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Douglas County, Colorado",
+    "state": "08",
+    "county": "035",
+    "county_name": "Douglas County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "El Paso County, Colorado",
+    "state": "08",
+    "county": "041",
+    "county_name": "El Paso County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Jefferson County, Colorado",
+    "state": "08",
+    "county": "059",
+    "county_name": "Jefferson County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Larimer County, Colorado",
+    "state": "08",
+    "county": "069",
+    "county_name": "Larimer County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Mesa County, Colorado",
+    "state": "08",
+    "county": "077",
+    "county_name": "Mesa County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Pueblo County, Colorado",
+    "state": "08",
+    "county": "101",
+    "county_name": "Pueblo County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Weld County, Colorado",
+    "state": "08",
+    "county": "123",
+    "county_name": "Weld County",
+    "state_name": "Colorado"
+  },
+  {
+    "NAME": "Capitol Planning Region, Connecticut",
+    "state": "09",
+    "county": "110",
+    "county_name": "Capitol Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Greater Bridgeport Planning Region, Connecticut",
+    "state": "09",
+    "county": "120",
+    "county_name": "Greater Bridgeport Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Lower Connecticut River Valley Planning Region, Connecticut",
+    "state": "09",
+    "county": "130",
+    "county_name": "Lower Connecticut River Valley Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Naugatuck Valley Planning Region, Connecticut",
+    "state": "09",
+    "county": "140",
+    "county_name": "Naugatuck Valley Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Northeastern Connecticut Planning Region, Connecticut",
+    "state": "09",
+    "county": "150",
+    "county_name": "Northeastern Connecticut Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Northwest Hills Planning Region, Connecticut",
+    "state": "09",
+    "county": "160",
+    "county_name": "Northwest Hills Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "South Central Connecticut Planning Region, Connecticut",
+    "state": "09",
+    "county": "170",
+    "county_name": "South Central Connecticut Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Southeastern Connecticut Planning Region, Connecticut",
+    "state": "09",
+    "county": "180",
+    "county_name": "Southeastern Connecticut Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Western Connecticut Planning Region, Connecticut",
+    "state": "09",
+    "county": "190",
+    "county_name": "Western Connecticut Planning Region",
+    "state_name": "Connecticut"
+  },
+  {
+    "NAME": "Kent County, Delaware",
+    "state": "10",
+    "county": "001",
+    "county_name": "Kent County",
+    "state_name": "Delaware"
+  },
+  {
+    "NAME": "New Castle County, Delaware",
+    "state": "10",
+    "county": "003",
+    "county_name": "New Castle County",
+    "state_name": "Delaware"
+  },
+  {
+    "NAME": "Sussex County, Delaware",
+    "state": "10",
+    "county": "005",
+    "county_name": "Sussex County",
+    "state_name": "Delaware"
+  },
+  {
+    "NAME": "District of Columbia, District of Columbia",
+    "state": "11",
+    "county": "001",
+    "county_name": "District of Columbia",
+    "state_name": "District of Columbia"
+  },
+  {
+    "NAME": "Alachua County, Florida",
+    "state": "12",
+    "county": "001",
+    "county_name": "Alachua County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Bay County, Florida",
+    "state": "12",
+    "county": "005",
+    "county_name": "Bay County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Brevard County, Florida",
+    "state": "12",
+    "county": "009",
+    "county_name": "Brevard County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Broward County, Florida",
+    "state": "12",
+    "county": "011",
+    "county_name": "Broward County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Charlotte County, Florida",
+    "state": "12",
+    "county": "015",
+    "county_name": "Charlotte County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Citrus County, Florida",
+    "state": "12",
+    "county": "017",
+    "county_name": "Citrus County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Clay County, Florida",
+    "state": "12",
+    "county": "019",
+    "county_name": "Clay County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Collier County, Florida",
+    "state": "12",
+    "county": "021",
+    "county_name": "Collier County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Columbia County, Florida",
+    "state": "12",
+    "county": "023",
+    "county_name": "Columbia County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Duval County, Florida",
+    "state": "12",
+    "county": "031",
+    "county_name": "Duval County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Escambia County, Florida",
+    "state": "12",
+    "county": "033",
+    "county_name": "Escambia County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Flagler County, Florida",
+    "state": "12",
+    "county": "035",
+    "county_name": "Flagler County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Hernando County, Florida",
+    "state": "12",
+    "county": "053",
+    "county_name": "Hernando County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Highlands County, Florida",
+    "state": "12",
+    "county": "055",
+    "county_name": "Highlands County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Hillsborough County, Florida",
+    "state": "12",
+    "county": "057",
+    "county_name": "Hillsborough County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Indian River County, Florida",
+    "state": "12",
+    "county": "061",
+    "county_name": "Indian River County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Lake County, Florida",
+    "state": "12",
+    "county": "069",
+    "county_name": "Lake County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Lee County, Florida",
+    "state": "12",
+    "county": "071",
+    "county_name": "Lee County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Leon County, Florida",
+    "state": "12",
+    "county": "073",
+    "county_name": "Leon County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Manatee County, Florida",
+    "state": "12",
+    "county": "081",
+    "county_name": "Manatee County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Marion County, Florida",
+    "state": "12",
+    "county": "083",
+    "county_name": "Marion County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Martin County, Florida",
+    "state": "12",
+    "county": "085",
+    "county_name": "Martin County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Miami-Dade County, Florida",
+    "state": "12",
+    "county": "086",
+    "county_name": "Miami-Dade County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Monroe County, Florida",
+    "state": "12",
+    "county": "087",
+    "county_name": "Monroe County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Nassau County, Florida",
+    "state": "12",
+    "county": "089",
+    "county_name": "Nassau County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Okaloosa County, Florida",
+    "state": "12",
+    "county": "091",
+    "county_name": "Okaloosa County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Orange County, Florida",
+    "state": "12",
+    "county": "095",
+    "county_name": "Orange County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Osceola County, Florida",
+    "state": "12",
+    "county": "097",
+    "county_name": "Osceola County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Palm Beach County, Florida",
+    "state": "12",
+    "county": "099",
+    "county_name": "Palm Beach County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Pasco County, Florida",
+    "state": "12",
+    "county": "101",
+    "county_name": "Pasco County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Pinellas County, Florida",
+    "state": "12",
+    "county": "103",
+    "county_name": "Pinellas County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Polk County, Florida",
+    "state": "12",
+    "county": "105",
+    "county_name": "Polk County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Putnam County, Florida",
+    "state": "12",
+    "county": "107",
+    "county_name": "Putnam County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "St. Johns County, Florida",
+    "state": "12",
+    "county": "109",
+    "county_name": "St. Johns County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "St. Lucie County, Florida",
+    "state": "12",
+    "county": "111",
+    "county_name": "St. Lucie County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Santa Rosa County, Florida",
+    "state": "12",
+    "county": "113",
+    "county_name": "Santa Rosa County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Sarasota County, Florida",
+    "state": "12",
+    "county": "115",
+    "county_name": "Sarasota County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Seminole County, Florida",
+    "state": "12",
+    "county": "117",
+    "county_name": "Seminole County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Sumter County, Florida",
+    "state": "12",
+    "county": "119",
+    "county_name": "Sumter County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Volusia County, Florida",
+    "state": "12",
+    "county": "127",
+    "county_name": "Volusia County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Walton County, Florida",
+    "state": "12",
+    "county": "131",
+    "county_name": "Walton County",
+    "state_name": "Florida"
+  },
+  {
+    "NAME": "Barrow County, Georgia",
+    "state": "13",
+    "county": "013",
+    "county_name": "Barrow County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Bartow County, Georgia",
+    "state": "13",
+    "county": "015",
+    "county_name": "Bartow County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Bibb County, Georgia",
+    "state": "13",
+    "county": "021",
+    "county_name": "Bibb County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Bulloch County, Georgia",
+    "state": "13",
+    "county": "031",
+    "county_name": "Bulloch County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Carroll County, Georgia",
+    "state": "13",
+    "county": "045",
+    "county_name": "Carroll County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Catoosa County, Georgia",
+    "state": "13",
+    "county": "047",
+    "county_name": "Catoosa County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Chatham County, Georgia",
+    "state": "13",
+    "county": "051",
+    "county_name": "Chatham County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Cherokee County, Georgia",
+    "state": "13",
+    "county": "057",
+    "county_name": "Cherokee County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Clarke County, Georgia",
+    "state": "13",
+    "county": "059",
+    "county_name": "Clarke County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Clayton County, Georgia",
+    "state": "13",
+    "county": "063",
+    "county_name": "Clayton County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Cobb County, Georgia",
+    "state": "13",
+    "county": "067",
+    "county_name": "Cobb County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Columbia County, Georgia",
+    "state": "13",
+    "county": "073",
+    "county_name": "Columbia County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Coweta County, Georgia",
+    "state": "13",
+    "county": "077",
+    "county_name": "Coweta County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "DeKalb County, Georgia",
+    "state": "13",
+    "county": "089",
+    "county_name": "DeKalb County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Dougherty County, Georgia",
+    "state": "13",
+    "county": "095",
+    "county_name": "Dougherty County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Douglas County, Georgia",
+    "state": "13",
+    "county": "097",
+    "county_name": "Douglas County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Effingham County, Georgia",
+    "state": "13",
+    "county": "103",
+    "county_name": "Effingham County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Fayette County, Georgia",
+    "state": "13",
+    "county": "113",
+    "county_name": "Fayette County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Floyd County, Georgia",
+    "state": "13",
+    "county": "115",
+    "county_name": "Floyd County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Forsyth County, Georgia",
+    "state": "13",
+    "county": "117",
+    "county_name": "Forsyth County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Fulton County, Georgia",
+    "state": "13",
+    "county": "121",
+    "county_name": "Fulton County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Glynn County, Georgia",
+    "state": "13",
+    "county": "127",
+    "county_name": "Glynn County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Gwinnett County, Georgia",
+    "state": "13",
+    "county": "135",
+    "county_name": "Gwinnett County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Hall County, Georgia",
+    "state": "13",
+    "county": "139",
+    "county_name": "Hall County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Henry County, Georgia",
+    "state": "13",
+    "county": "151",
+    "county_name": "Henry County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Houston County, Georgia",
+    "state": "13",
+    "county": "153",
+    "county_name": "Houston County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Jackson County, Georgia",
+    "state": "13",
+    "county": "157",
+    "county_name": "Jackson County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Liberty County, Georgia",
+    "state": "13",
+    "county": "179",
+    "county_name": "Liberty County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Lowndes County, Georgia",
+    "state": "13",
+    "county": "185",
+    "county_name": "Lowndes County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Muscogee County, Georgia",
+    "state": "13",
+    "county": "215",
+    "county_name": "Muscogee County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Newton County, Georgia",
+    "state": "13",
+    "county": "217",
+    "county_name": "Newton County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Paulding County, Georgia",
+    "state": "13",
+    "county": "223",
+    "county_name": "Paulding County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Richmond County, Georgia",
+    "state": "13",
+    "county": "245",
+    "county_name": "Richmond County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Rockdale County, Georgia",
+    "state": "13",
+    "county": "247",
+    "county_name": "Rockdale County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Spalding County, Georgia",
+    "state": "13",
+    "county": "255",
+    "county_name": "Spalding County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Troup County, Georgia",
+    "state": "13",
+    "county": "285",
+    "county_name": "Troup County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Walker County, Georgia",
+    "state": "13",
+    "county": "295",
+    "county_name": "Walker County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Walton County, Georgia",
+    "state": "13",
+    "county": "297",
+    "county_name": "Walton County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Whitfield County, Georgia",
+    "state": "13",
+    "county": "313",
+    "county_name": "Whitfield County",
+    "state_name": "Georgia"
+  },
+  {
+    "NAME": "Hawaii County, Hawaii",
+    "state": "15",
+    "county": "001",
+    "county_name": "Hawaii County",
+    "state_name": "Hawaii"
+  },
+  {
+    "NAME": "Honolulu County, Hawaii",
+    "state": "15",
+    "county": "003",
+    "county_name": "Honolulu County",
+    "state_name": "Hawaii"
+  },
+  {
+    "NAME": "Kauai County, Hawaii",
+    "state": "15",
+    "county": "007",
+    "county_name": "Kauai County",
+    "state_name": "Hawaii"
+  },
+  {
+    "NAME": "Maui County, Hawaii",
+    "state": "15",
+    "county": "009",
+    "county_name": "Maui County",
+    "state_name": "Hawaii"
+  },
+  {
+    "NAME": "Ada County, Idaho",
+    "state": "16",
+    "county": "001",
+    "county_name": "Ada County",
+    "state_name": "Idaho"
+  },
+  {
+    "NAME": "Bannock County, Idaho",
+    "state": "16",
+    "county": "005",
+    "county_name": "Bannock County",
+    "state_name": "Idaho"
+  },
+  {
+    "NAME": "Bonneville County, Idaho",
+    "state": "16",
+    "county": "019",
+    "county_name": "Bonneville County",
+    "state_name": "Idaho"
+  },
+  {
+    "NAME": "Canyon County, Idaho",
+    "state": "16",
+    "county": "027",
+    "county_name": "Canyon County",
+    "state_name": "Idaho"
+  },
+  {
+    "NAME": "Kootenai County, Idaho",
+    "state": "16",
+    "county": "055",
+    "county_name": "Kootenai County",
+    "state_name": "Idaho"
+  },
+  {
+    "NAME": "Twin Falls County, Idaho",
+    "state": "16",
+    "county": "083",
+    "county_name": "Twin Falls County",
+    "state_name": "Idaho"
+  },
+  {
+    "NAME": "Champaign County, Illinois",
+    "state": "17",
+    "county": "019",
+    "county_name": "Champaign County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Cook County, Illinois",
+    "state": "17",
+    "county": "031",
+    "county_name": "Cook County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "DeKalb County, Illinois",
+    "state": "17",
+    "county": "037",
+    "county_name": "DeKalb County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "DuPage County, Illinois",
+    "state": "17",
+    "county": "043",
+    "county_name": "DuPage County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Kane County, Illinois",
+    "state": "17",
+    "county": "089",
+    "county_name": "Kane County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Kankakee County, Illinois",
+    "state": "17",
+    "county": "091",
+    "county_name": "Kankakee County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Kendall County, Illinois",
+    "state": "17",
+    "county": "093",
+    "county_name": "Kendall County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Lake County, Illinois",
+    "state": "17",
+    "county": "097",
+    "county_name": "Lake County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "LaSalle County, Illinois",
+    "state": "17",
+    "county": "099",
+    "county_name": "LaSalle County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "McHenry County, Illinois",
+    "state": "17",
+    "county": "111",
+    "county_name": "McHenry County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "McLean County, Illinois",
+    "state": "17",
+    "county": "113",
+    "county_name": "McLean County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Macon County, Illinois",
+    "state": "17",
+    "county": "115",
+    "county_name": "Macon County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Madison County, Illinois",
+    "state": "17",
+    "county": "119",
+    "county_name": "Madison County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Peoria County, Illinois",
+    "state": "17",
+    "county": "143",
+    "county_name": "Peoria County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Rock Island County, Illinois",
+    "state": "17",
+    "county": "161",
+    "county_name": "Rock Island County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "St. Clair County, Illinois",
+    "state": "17",
+    "county": "163",
+    "county_name": "St. Clair County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Sangamon County, Illinois",
+    "state": "17",
+    "county": "167",
+    "county_name": "Sangamon County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Tazewell County, Illinois",
+    "state": "17",
+    "county": "179",
+    "county_name": "Tazewell County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Vermilion County, Illinois",
+    "state": "17",
+    "county": "183",
+    "county_name": "Vermilion County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Will County, Illinois",
+    "state": "17",
+    "county": "197",
+    "county_name": "Will County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Williamson County, Illinois",
+    "state": "17",
+    "county": "199",
+    "county_name": "Williamson County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Winnebago County, Illinois",
+    "state": "17",
+    "county": "201",
+    "county_name": "Winnebago County",
+    "state_name": "Illinois"
+  },
+  {
+    "NAME": "Allen County, Indiana",
+    "state": "18",
+    "county": "003",
+    "county_name": "Allen County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Bartholomew County, Indiana",
+    "state": "18",
+    "county": "005",
+    "county_name": "Bartholomew County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Boone County, Indiana",
+    "state": "18",
+    "county": "011",
+    "county_name": "Boone County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Clark County, Indiana",
+    "state": "18",
+    "county": "019",
+    "county_name": "Clark County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Delaware County, Indiana",
+    "state": "18",
+    "county": "035",
+    "county_name": "Delaware County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Elkhart County, Indiana",
+    "state": "18",
+    "county": "039",
+    "county_name": "Elkhart County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Floyd County, Indiana",
+    "state": "18",
+    "county": "043",
+    "county_name": "Floyd County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Grant County, Indiana",
+    "state": "18",
+    "county": "053",
+    "county_name": "Grant County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Hamilton County, Indiana",
+    "state": "18",
+    "county": "057",
+    "county_name": "Hamilton County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Hancock County, Indiana",
+    "state": "18",
+    "county": "059",
+    "county_name": "Hancock County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Hendricks County, Indiana",
+    "state": "18",
+    "county": "063",
+    "county_name": "Hendricks County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Howard County, Indiana",
+    "state": "18",
+    "county": "067",
+    "county_name": "Howard County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Johnson County, Indiana",
+    "state": "18",
+    "county": "081",
+    "county_name": "Johnson County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Kosciusko County, Indiana",
+    "state": "18",
+    "county": "085",
+    "county_name": "Kosciusko County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Lake County, Indiana",
+    "state": "18",
+    "county": "089",
+    "county_name": "Lake County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "LaPorte County, Indiana",
+    "state": "18",
+    "county": "091",
+    "county_name": "LaPorte County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Madison County, Indiana",
+    "state": "18",
+    "county": "095",
+    "county_name": "Madison County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Marion County, Indiana",
+    "state": "18",
+    "county": "097",
+    "county_name": "Marion County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Monroe County, Indiana",
+    "state": "18",
+    "county": "105",
+    "county_name": "Monroe County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Morgan County, Indiana",
+    "state": "18",
+    "county": "109",
+    "county_name": "Morgan County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Porter County, Indiana",
+    "state": "18",
+    "county": "127",
+    "county_name": "Porter County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "St. Joseph County, Indiana",
+    "state": "18",
+    "county": "141",
+    "county_name": "St. Joseph County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Tippecanoe County, Indiana",
+    "state": "18",
+    "county": "157",
+    "county_name": "Tippecanoe County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Vanderburgh County, Indiana",
+    "state": "18",
+    "county": "163",
+    "county_name": "Vanderburgh County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Vigo County, Indiana",
+    "state": "18",
+    "county": "167",
+    "county_name": "Vigo County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Warrick County, Indiana",
+    "state": "18",
+    "county": "173",
+    "county_name": "Warrick County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Wayne County, Indiana",
+    "state": "18",
+    "county": "177",
+    "county_name": "Wayne County",
+    "state_name": "Indiana"
+  },
+  {
+    "NAME": "Black Hawk County, Iowa",
+    "state": "19",
+    "county": "013",
+    "county_name": "Black Hawk County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Dallas County, Iowa",
+    "state": "19",
+    "county": "049",
+    "county_name": "Dallas County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Dubuque County, Iowa",
+    "state": "19",
+    "county": "061",
+    "county_name": "Dubuque County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Johnson County, Iowa",
+    "state": "19",
+    "county": "103",
+    "county_name": "Johnson County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Linn County, Iowa",
+    "state": "19",
+    "county": "113",
+    "county_name": "Linn County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Polk County, Iowa",
+    "state": "19",
+    "county": "153",
+    "county_name": "Polk County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Pottawattamie County, Iowa",
+    "state": "19",
+    "county": "155",
+    "county_name": "Pottawattamie County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Scott County, Iowa",
+    "state": "19",
+    "county": "163",
+    "county_name": "Scott County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Story County, Iowa",
+    "state": "19",
+    "county": "169",
+    "county_name": "Story County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Woodbury County, Iowa",
+    "state": "19",
+    "county": "193",
+    "county_name": "Woodbury County",
+    "state_name": "Iowa"
+  },
+  {
+    "NAME": "Butler County, Kansas",
+    "state": "20",
+    "county": "015",
+    "county_name": "Butler County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Douglas County, Kansas",
+    "state": "20",
+    "county": "045",
+    "county_name": "Douglas County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Johnson County, Kansas",
+    "state": "20",
+    "county": "091",
+    "county_name": "Johnson County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Leavenworth County, Kansas",
+    "state": "20",
+    "county": "103",
+    "county_name": "Leavenworth County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Riley County, Kansas",
+    "state": "20",
+    "county": "161",
+    "county_name": "Riley County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Sedgwick County, Kansas",
+    "state": "20",
+    "county": "173",
+    "county_name": "Sedgwick County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Shawnee County, Kansas",
+    "state": "20",
+    "county": "177",
+    "county_name": "Shawnee County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Wyandotte County, Kansas",
+    "state": "20",
+    "county": "209",
+    "county_name": "Wyandotte County",
+    "state_name": "Kansas"
+  },
+  {
+    "NAME": "Boone County, Kentucky",
+    "state": "21",
+    "county": "015",
+    "county_name": "Boone County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Bullitt County, Kentucky",
+    "state": "21",
+    "county": "029",
+    "county_name": "Bullitt County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Campbell County, Kentucky",
+    "state": "21",
+    "county": "037",
+    "county_name": "Campbell County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Christian County, Kentucky",
+    "state": "21",
+    "county": "047",
+    "county_name": "Christian County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Daviess County, Kentucky",
+    "state": "21",
+    "county": "059",
+    "county_name": "Daviess County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Fayette County, Kentucky",
+    "state": "21",
+    "county": "067",
+    "county_name": "Fayette County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Hardin County, Kentucky",
+    "state": "21",
+    "county": "093",
+    "county_name": "Hardin County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Jefferson County, Kentucky",
+    "state": "21",
+    "county": "111",
+    "county_name": "Jefferson County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Kenton County, Kentucky",
+    "state": "21",
+    "county": "117",
+    "county_name": "Kenton County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "McCracken County, Kentucky",
+    "state": "21",
+    "county": "145",
+    "county_name": "McCracken County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Madison County, Kentucky",
+    "state": "21",
+    "county": "151",
+    "county_name": "Madison County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Oldham County, Kentucky",
+    "state": "21",
+    "county": "185",
+    "county_name": "Oldham County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Pulaski County, Kentucky",
+    "state": "21",
+    "county": "199",
+    "county_name": "Pulaski County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Warren County, Kentucky",
+    "state": "21",
+    "county": "227",
+    "county_name": "Warren County",
+    "state_name": "Kentucky"
+  },
+  {
+    "NAME": "Ascension Parish, Louisiana",
+    "state": "22",
+    "county": "005",
+    "county_name": "Ascension Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Bossier Parish, Louisiana",
+    "state": "22",
+    "county": "015",
+    "county_name": "Bossier Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Caddo Parish, Louisiana",
+    "state": "22",
+    "county": "017",
+    "county_name": "Caddo Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Calcasieu Parish, Louisiana",
+    "state": "22",
+    "county": "019",
+    "county_name": "Calcasieu Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "East Baton Rouge Parish, Louisiana",
+    "state": "22",
+    "county": "033",
+    "county_name": "East Baton Rouge Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Iberia Parish, Louisiana",
+    "state": "22",
+    "county": "045",
+    "county_name": "Iberia Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Jefferson Parish, Louisiana",
+    "state": "22",
+    "county": "051",
+    "county_name": "Jefferson Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Lafayette Parish, Louisiana",
+    "state": "22",
+    "county": "055",
+    "county_name": "Lafayette Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Lafourche Parish, Louisiana",
+    "state": "22",
+    "county": "057",
+    "county_name": "Lafourche Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Livingston Parish, Louisiana",
+    "state": "22",
+    "county": "063",
+    "county_name": "Livingston Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Orleans Parish, Louisiana",
+    "state": "22",
+    "county": "071",
+    "county_name": "Orleans Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Ouachita Parish, Louisiana",
+    "state": "22",
+    "county": "073",
+    "county_name": "Ouachita Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Rapides Parish, Louisiana",
+    "state": "22",
+    "county": "079",
+    "county_name": "Rapides Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "St. Landry Parish, Louisiana",
+    "state": "22",
+    "county": "097",
+    "county_name": "St. Landry Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "St. Tammany Parish, Louisiana",
+    "state": "22",
+    "county": "103",
+    "county_name": "St. Tammany Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Tangipahoa Parish, Louisiana",
+    "state": "22",
+    "county": "105",
+    "county_name": "Tangipahoa Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Terrebonne Parish, Louisiana",
+    "state": "22",
+    "county": "109",
+    "county_name": "Terrebonne Parish",
+    "state_name": "Louisiana"
+  },
+  {
+    "NAME": "Androscoggin County, Maine",
+    "state": "23",
+    "county": "001",
+    "county_name": "Androscoggin County",
+    "state_name": "Maine"
+  },
+  {
+    "NAME": "Aroostook County, Maine",
+    "state": "23",
+    "county": "003",
+    "county_name": "Aroostook County",
+    "state_name": "Maine"
+  },
+  {
+    "NAME": "Cumberland County, Maine",
+    "state": "23",
+    "county": "005",
+    "county_name": "Cumberland County",
+    "state_name": "Maine"
+  },
+  {
+    "NAME": "Kennebec County, Maine",
+    "state": "23",
+    "county": "011",
+    "county_name": "Kennebec County",
+    "state_name": "Maine"
+  },
+  {
+    "NAME": "Penobscot County, Maine",
+    "state": "23",
+    "county": "019",
+    "county_name": "Penobscot County",
+    "state_name": "Maine"
+  },
+  {
+    "NAME": "York County, Maine",
+    "state": "23",
+    "county": "031",
+    "county_name": "York County",
+    "state_name": "Maine"
+  },
+  {
+    "NAME": "Allegany County, Maryland",
+    "state": "24",
+    "county": "001",
+    "county_name": "Allegany County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Anne Arundel County, Maryland",
+    "state": "24",
+    "county": "003",
+    "county_name": "Anne Arundel County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Baltimore County, Maryland",
+    "state": "24",
+    "county": "005",
+    "county_name": "Baltimore County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Calvert County, Maryland",
+    "state": "24",
+    "county": "009",
+    "county_name": "Calvert County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Carroll County, Maryland",
+    "state": "24",
+    "county": "013",
+    "county_name": "Carroll County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Cecil County, Maryland",
+    "state": "24",
+    "county": "015",
+    "county_name": "Cecil County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Charles County, Maryland",
+    "state": "24",
+    "county": "017",
+    "county_name": "Charles County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Frederick County, Maryland",
+    "state": "24",
+    "county": "021",
+    "county_name": "Frederick County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Harford County, Maryland",
+    "state": "24",
+    "county": "025",
+    "county_name": "Harford County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Howard County, Maryland",
+    "state": "24",
+    "county": "027",
+    "county_name": "Howard County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Montgomery County, Maryland",
+    "state": "24",
+    "county": "031",
+    "county_name": "Montgomery County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Prince George's County, Maryland",
+    "state": "24",
+    "county": "033",
+    "county_name": "Prince George's County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "St. Mary's County, Maryland",
+    "state": "24",
+    "county": "037",
+    "county_name": "St. Mary's County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Washington County, Maryland",
+    "state": "24",
+    "county": "043",
+    "county_name": "Washington County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Wicomico County, Maryland",
+    "state": "24",
+    "county": "045",
+    "county_name": "Wicomico County",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Baltimore city, Maryland",
+    "state": "24",
+    "county": "510",
+    "county_name": "Baltimore city",
+    "state_name": "Maryland"
+  },
+  {
+    "NAME": "Barnstable County, Massachusetts",
+    "state": "25",
+    "county": "001",
+    "county_name": "Barnstable County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Berkshire County, Massachusetts",
+    "state": "25",
+    "county": "003",
+    "county_name": "Berkshire County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Bristol County, Massachusetts",
+    "state": "25",
+    "county": "005",
+    "county_name": "Bristol County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Essex County, Massachusetts",
+    "state": "25",
+    "county": "009",
+    "county_name": "Essex County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Franklin County, Massachusetts",
+    "state": "25",
+    "county": "011",
+    "county_name": "Franklin County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Hampden County, Massachusetts",
+    "state": "25",
+    "county": "013",
+    "county_name": "Hampden County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Hampshire County, Massachusetts",
+    "state": "25",
+    "county": "015",
+    "county_name": "Hampshire County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Middlesex County, Massachusetts",
+    "state": "25",
+    "county": "017",
+    "county_name": "Middlesex County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Norfolk County, Massachusetts",
+    "state": "25",
+    "county": "021",
+    "county_name": "Norfolk County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Plymouth County, Massachusetts",
+    "state": "25",
+    "county": "023",
+    "county_name": "Plymouth County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Suffolk County, Massachusetts",
+    "state": "25",
+    "county": "025",
+    "county_name": "Suffolk County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Worcester County, Massachusetts",
+    "state": "25",
+    "county": "027",
+    "county_name": "Worcester County",
+    "state_name": "Massachusetts"
+  },
+  {
+    "NAME": "Allegan County, Michigan",
+    "state": "26",
+    "county": "005",
+    "county_name": "Allegan County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Bay County, Michigan",
+    "state": "26",
+    "county": "017",
+    "county_name": "Bay County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Berrien County, Michigan",
+    "state": "26",
+    "county": "021",
+    "county_name": "Berrien County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Calhoun County, Michigan",
+    "state": "26",
+    "county": "025",
+    "county_name": "Calhoun County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Clinton County, Michigan",
+    "state": "26",
+    "county": "037",
+    "county_name": "Clinton County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Eaton County, Michigan",
+    "state": "26",
+    "county": "045",
+    "county_name": "Eaton County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Genesee County, Michigan",
+    "state": "26",
+    "county": "049",
+    "county_name": "Genesee County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Grand Traverse County, Michigan",
+    "state": "26",
+    "county": "055",
+    "county_name": "Grand Traverse County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Ingham County, Michigan",
+    "state": "26",
+    "county": "065",
+    "county_name": "Ingham County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Ionia County, Michigan",
+    "state": "26",
+    "county": "067",
+    "county_name": "Ionia County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Jackson County, Michigan",
+    "state": "26",
+    "county": "075",
+    "county_name": "Jackson County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Kalamazoo County, Michigan",
+    "state": "26",
+    "county": "077",
+    "county_name": "Kalamazoo County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Kent County, Michigan",
+    "state": "26",
+    "county": "081",
+    "county_name": "Kent County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Lapeer County, Michigan",
+    "state": "26",
+    "county": "087",
+    "county_name": "Lapeer County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Lenawee County, Michigan",
+    "state": "26",
+    "county": "091",
+    "county_name": "Lenawee County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Livingston County, Michigan",
+    "state": "26",
+    "county": "093",
+    "county_name": "Livingston County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Macomb County, Michigan",
+    "state": "26",
+    "county": "099",
+    "county_name": "Macomb County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Marquette County, Michigan",
+    "state": "26",
+    "county": "103",
+    "county_name": "Marquette County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Midland County, Michigan",
+    "state": "26",
+    "county": "111",
+    "county_name": "Midland County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Monroe County, Michigan",
+    "state": "26",
+    "county": "115",
+    "county_name": "Monroe County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Montcalm County, Michigan",
+    "state": "26",
+    "county": "117",
+    "county_name": "Montcalm County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Muskegon County, Michigan",
+    "state": "26",
+    "county": "121",
+    "county_name": "Muskegon County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Oakland County, Michigan",
+    "state": "26",
+    "county": "125",
+    "county_name": "Oakland County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Ottawa County, Michigan",
+    "state": "26",
+    "county": "139",
+    "county_name": "Ottawa County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Saginaw County, Michigan",
+    "state": "26",
+    "county": "145",
+    "county_name": "Saginaw County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "St. Clair County, Michigan",
+    "state": "26",
+    "county": "147",
+    "county_name": "St. Clair County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Shiawassee County, Michigan",
+    "state": "26",
+    "county": "155",
+    "county_name": "Shiawassee County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Van Buren County, Michigan",
+    "state": "26",
+    "county": "159",
+    "county_name": "Van Buren County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Washtenaw County, Michigan",
+    "state": "26",
+    "county": "161",
+    "county_name": "Washtenaw County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Wayne County, Michigan",
+    "state": "26",
+    "county": "163",
+    "county_name": "Wayne County",
+    "state_name": "Michigan"
+  },
+  {
+    "NAME": "Anoka County, Minnesota",
+    "state": "27",
+    "county": "003",
+    "county_name": "Anoka County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Blue Earth County, Minnesota",
+    "state": "27",
+    "county": "013",
+    "county_name": "Blue Earth County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Carver County, Minnesota",
+    "state": "27",
+    "county": "019",
+    "county_name": "Carver County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Clay County, Minnesota",
+    "state": "27",
+    "county": "027",
+    "county_name": "Clay County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Crow Wing County, Minnesota",
+    "state": "27",
+    "county": "035",
+    "county_name": "Crow Wing County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Dakota County, Minnesota",
+    "state": "27",
+    "county": "037",
+    "county_name": "Dakota County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Hennepin County, Minnesota",
+    "state": "27",
+    "county": "053",
+    "county_name": "Hennepin County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Olmsted County, Minnesota",
+    "state": "27",
+    "county": "109",
+    "county_name": "Olmsted County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Ramsey County, Minnesota",
+    "state": "27",
+    "county": "123",
+    "county_name": "Ramsey County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Rice County, Minnesota",
+    "state": "27",
+    "county": "131",
+    "county_name": "Rice County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "St. Louis County, Minnesota",
+    "state": "27",
+    "county": "137",
+    "county_name": "St. Louis County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Scott County, Minnesota",
+    "state": "27",
+    "county": "139",
+    "county_name": "Scott County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Sherburne County, Minnesota",
+    "state": "27",
+    "county": "141",
+    "county_name": "Sherburne County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Stearns County, Minnesota",
+    "state": "27",
+    "county": "145",
+    "county_name": "Stearns County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Washington County, Minnesota",
+    "state": "27",
+    "county": "163",
+    "county_name": "Washington County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "Wright County, Minnesota",
+    "state": "27",
+    "county": "171",
+    "county_name": "Wright County",
+    "state_name": "Minnesota"
+  },
+  {
+    "NAME": "DeSoto County, Mississippi",
+    "state": "28",
+    "county": "033",
+    "county_name": "DeSoto County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Forrest County, Mississippi",
+    "state": "28",
+    "county": "035",
+    "county_name": "Forrest County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Harrison County, Mississippi",
+    "state": "28",
+    "county": "047",
+    "county_name": "Harrison County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Hinds County, Mississippi",
+    "state": "28",
+    "county": "049",
+    "county_name": "Hinds County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Jackson County, Mississippi",
+    "state": "28",
+    "county": "059",
+    "county_name": "Jackson County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Jones County, Mississippi",
+    "state": "28",
+    "county": "067",
+    "county_name": "Jones County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Lamar County, Mississippi",
+    "state": "28",
+    "county": "073",
+    "county_name": "Lamar County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Lauderdale County, Mississippi",
+    "state": "28",
+    "county": "075",
+    "county_name": "Lauderdale County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Lee County, Mississippi",
+    "state": "28",
+    "county": "081",
+    "county_name": "Lee County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Madison County, Mississippi",
+    "state": "28",
+    "county": "089",
+    "county_name": "Madison County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Rankin County, Mississippi",
+    "state": "28",
+    "county": "121",
+    "county_name": "Rankin County",
+    "state_name": "Mississippi"
+  },
+  {
+    "NAME": "Boone County, Missouri",
+    "state": "29",
+    "county": "019",
+    "county_name": "Boone County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Buchanan County, Missouri",
+    "state": "29",
+    "county": "021",
+    "county_name": "Buchanan County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Cape Girardeau County, Missouri",
+    "state": "29",
+    "county": "031",
+    "county_name": "Cape Girardeau County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Cass County, Missouri",
+    "state": "29",
+    "county": "037",
+    "county_name": "Cass County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Christian County, Missouri",
+    "state": "29",
+    "county": "043",
+    "county_name": "Christian County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Clay County, Missouri",
+    "state": "29",
+    "county": "047",
+    "county_name": "Clay County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Cole County, Missouri",
+    "state": "29",
+    "county": "051",
+    "county_name": "Cole County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Franklin County, Missouri",
+    "state": "29",
+    "county": "071",
+    "county_name": "Franklin County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Greene County, Missouri",
+    "state": "29",
+    "county": "077",
+    "county_name": "Greene County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Jackson County, Missouri",
+    "state": "29",
+    "county": "095",
+    "county_name": "Jackson County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Jasper County, Missouri",
+    "state": "29",
+    "county": "097",
+    "county_name": "Jasper County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Jefferson County, Missouri",
+    "state": "29",
+    "county": "099",
+    "county_name": "Jefferson County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Platte County, Missouri",
+    "state": "29",
+    "county": "165",
+    "county_name": "Platte County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "St. Charles County, Missouri",
+    "state": "29",
+    "county": "183",
+    "county_name": "St. Charles County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "St. Francois County, Missouri",
+    "state": "29",
+    "county": "187",
+    "county_name": "St. Francois County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "St. Louis County, Missouri",
+    "state": "29",
+    "county": "189",
+    "county_name": "St. Louis County",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "St. Louis city, Missouri",
+    "state": "29",
+    "county": "510",
+    "county_name": "St. Louis city",
+    "state_name": "Missouri"
+  },
+  {
+    "NAME": "Cascade County, Montana",
+    "state": "30",
+    "county": "013",
+    "county_name": "Cascade County",
+    "state_name": "Montana"
+  },
+  {
+    "NAME": "Flathead County, Montana",
+    "state": "30",
+    "county": "029",
+    "county_name": "Flathead County",
+    "state_name": "Montana"
+  },
+  {
+    "NAME": "Gallatin County, Montana",
+    "state": "30",
+    "county": "031",
+    "county_name": "Gallatin County",
+    "state_name": "Montana"
+  },
+  {
+    "NAME": "Lewis and Clark County, Montana",
+    "state": "30",
+    "county": "049",
+    "county_name": "Lewis and Clark County",
+    "state_name": "Montana"
+  },
+  {
+    "NAME": "Missoula County, Montana",
+    "state": "30",
+    "county": "063",
+    "county_name": "Missoula County",
+    "state_name": "Montana"
+  },
+  {
+    "NAME": "Yellowstone County, Montana",
+    "state": "30",
+    "county": "111",
+    "county_name": "Yellowstone County",
+    "state_name": "Montana"
+  },
+  {
+    "NAME": "Douglas County, Nebraska",
+    "state": "31",
+    "county": "055",
+    "county_name": "Douglas County",
+    "state_name": "Nebraska"
+  },
+  {
+    "NAME": "Lancaster County, Nebraska",
+    "state": "31",
+    "county": "109",
+    "county_name": "Lancaster County",
+    "state_name": "Nebraska"
+  },
+  {
+    "NAME": "Sarpy County, Nebraska",
+    "state": "31",
+    "county": "153",
+    "county_name": "Sarpy County",
+    "state_name": "Nebraska"
+  },
+  {
+    "NAME": "Clark County, Nevada",
+    "state": "32",
+    "county": "003",
+    "county_name": "Clark County",
+    "state_name": "Nevada"
+  },
+  {
+    "NAME": "Washoe County, Nevada",
+    "state": "32",
+    "county": "031",
+    "county_name": "Washoe County",
+    "state_name": "Nevada"
+  },
+  {
+    "NAME": "Belknap County, New Hampshire",
+    "state": "33",
+    "county": "001",
+    "county_name": "Belknap County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Cheshire County, New Hampshire",
+    "state": "33",
+    "county": "005",
+    "county_name": "Cheshire County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Grafton County, New Hampshire",
+    "state": "33",
+    "county": "009",
+    "county_name": "Grafton County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Hillsborough County, New Hampshire",
+    "state": "33",
+    "county": "011",
+    "county_name": "Hillsborough County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Merrimack County, New Hampshire",
+    "state": "33",
+    "county": "013",
+    "county_name": "Merrimack County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Rockingham County, New Hampshire",
+    "state": "33",
+    "county": "015",
+    "county_name": "Rockingham County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Strafford County, New Hampshire",
+    "state": "33",
+    "county": "017",
+    "county_name": "Strafford County",
+    "state_name": "New Hampshire"
+  },
+  {
+    "NAME": "Atlantic County, New Jersey",
+    "state": "34",
+    "county": "001",
+    "county_name": "Atlantic County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Bergen County, New Jersey",
+    "state": "34",
+    "county": "003",
+    "county_name": "Bergen County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Burlington County, New Jersey",
+    "state": "34",
+    "county": "005",
+    "county_name": "Burlington County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Camden County, New Jersey",
+    "state": "34",
+    "county": "007",
+    "county_name": "Camden County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Cape May County, New Jersey",
+    "state": "34",
+    "county": "009",
+    "county_name": "Cape May County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Cumberland County, New Jersey",
+    "state": "34",
+    "county": "011",
+    "county_name": "Cumberland County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Essex County, New Jersey",
+    "state": "34",
+    "county": "013",
+    "county_name": "Essex County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Gloucester County, New Jersey",
+    "state": "34",
+    "county": "015",
+    "county_name": "Gloucester County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Hudson County, New Jersey",
+    "state": "34",
+    "county": "017",
+    "county_name": "Hudson County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Hunterdon County, New Jersey",
+    "state": "34",
+    "county": "019",
+    "county_name": "Hunterdon County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Mercer County, New Jersey",
+    "state": "34",
+    "county": "021",
+    "county_name": "Mercer County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Middlesex County, New Jersey",
+    "state": "34",
+    "county": "023",
+    "county_name": "Middlesex County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Monmouth County, New Jersey",
+    "state": "34",
+    "county": "025",
+    "county_name": "Monmouth County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Morris County, New Jersey",
+    "state": "34",
+    "county": "027",
+    "county_name": "Morris County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Ocean County, New Jersey",
+    "state": "34",
+    "county": "029",
+    "county_name": "Ocean County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Passaic County, New Jersey",
+    "state": "34",
+    "county": "031",
+    "county_name": "Passaic County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Salem County, New Jersey",
+    "state": "34",
+    "county": "033",
+    "county_name": "Salem County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Somerset County, New Jersey",
+    "state": "34",
+    "county": "035",
+    "county_name": "Somerset County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Sussex County, New Jersey",
+    "state": "34",
+    "county": "037",
+    "county_name": "Sussex County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Union County, New Jersey",
+    "state": "34",
+    "county": "039",
+    "county_name": "Union County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Warren County, New Jersey",
+    "state": "34",
+    "county": "041",
+    "county_name": "Warren County",
+    "state_name": "New Jersey"
+  },
+  {
+    "NAME": "Bernalillo County, New Mexico",
+    "state": "35",
+    "county": "001",
+    "county_name": "Bernalillo County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Doña Ana County, New Mexico",
+    "state": "35",
+    "county": "013",
+    "county_name": "Doña Ana County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Lea County, New Mexico",
+    "state": "35",
+    "county": "025",
+    "county_name": "Lea County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "McKinley County, New Mexico",
+    "state": "35",
+    "county": "031",
+    "county_name": "McKinley County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Otero County, New Mexico",
+    "state": "35",
+    "county": "035",
+    "county_name": "Otero County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Sandoval County, New Mexico",
+    "state": "35",
+    "county": "043",
+    "county_name": "Sandoval County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "San Juan County, New Mexico",
+    "state": "35",
+    "county": "045",
+    "county_name": "San Juan County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Santa Fe County, New Mexico",
+    "state": "35",
+    "county": "049",
+    "county_name": "Santa Fe County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Valencia County, New Mexico",
+    "state": "35",
+    "county": "061",
+    "county_name": "Valencia County",
+    "state_name": "New Mexico"
+  },
+  {
+    "NAME": "Albany County, New York",
+    "state": "36",
+    "county": "001",
+    "county_name": "Albany County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Bronx County, New York",
+    "state": "36",
+    "county": "005",
+    "county_name": "Bronx County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Broome County, New York",
+    "state": "36",
+    "county": "007",
+    "county_name": "Broome County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Cattaraugus County, New York",
+    "state": "36",
+    "county": "009",
+    "county_name": "Cattaraugus County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Cayuga County, New York",
+    "state": "36",
+    "county": "011",
+    "county_name": "Cayuga County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Chautauqua County, New York",
+    "state": "36",
+    "county": "013",
+    "county_name": "Chautauqua County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Chemung County, New York",
+    "state": "36",
+    "county": "015",
+    "county_name": "Chemung County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Clinton County, New York",
+    "state": "36",
+    "county": "019",
+    "county_name": "Clinton County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Dutchess County, New York",
+    "state": "36",
+    "county": "027",
+    "county_name": "Dutchess County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Erie County, New York",
+    "state": "36",
+    "county": "029",
+    "county_name": "Erie County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Jefferson County, New York",
+    "state": "36",
+    "county": "045",
+    "county_name": "Jefferson County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Kings County, New York",
+    "state": "36",
+    "county": "047",
+    "county_name": "Kings County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Madison County, New York",
+    "state": "36",
+    "county": "053",
+    "county_name": "Madison County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Monroe County, New York",
+    "state": "36",
+    "county": "055",
+    "county_name": "Monroe County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Nassau County, New York",
+    "state": "36",
+    "county": "059",
+    "county_name": "Nassau County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "New York County, New York",
+    "state": "36",
+    "county": "061",
+    "county_name": "New York County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Niagara County, New York",
+    "state": "36",
+    "county": "063",
+    "county_name": "Niagara County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Oneida County, New York",
+    "state": "36",
+    "county": "065",
+    "county_name": "Oneida County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Onondaga County, New York",
+    "state": "36",
+    "county": "067",
+    "county_name": "Onondaga County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Ontario County, New York",
+    "state": "36",
+    "county": "069",
+    "county_name": "Ontario County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Orange County, New York",
+    "state": "36",
+    "county": "071",
+    "county_name": "Orange County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Oswego County, New York",
+    "state": "36",
+    "county": "075",
+    "county_name": "Oswego County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Putnam County, New York",
+    "state": "36",
+    "county": "079",
+    "county_name": "Putnam County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Queens County, New York",
+    "state": "36",
+    "county": "081",
+    "county_name": "Queens County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Rensselaer County, New York",
+    "state": "36",
+    "county": "083",
+    "county_name": "Rensselaer County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Richmond County, New York",
+    "state": "36",
+    "county": "085",
+    "county_name": "Richmond County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Rockland County, New York",
+    "state": "36",
+    "county": "087",
+    "county_name": "Rockland County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "St. Lawrence County, New York",
+    "state": "36",
+    "county": "089",
+    "county_name": "St. Lawrence County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Saratoga County, New York",
+    "state": "36",
+    "county": "091",
+    "county_name": "Saratoga County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Schenectady County, New York",
+    "state": "36",
+    "county": "093",
+    "county_name": "Schenectady County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Steuben County, New York",
+    "state": "36",
+    "county": "101",
+    "county_name": "Steuben County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Suffolk County, New York",
+    "state": "36",
+    "county": "103",
+    "county_name": "Suffolk County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Sullivan County, New York",
+    "state": "36",
+    "county": "105",
+    "county_name": "Sullivan County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Tompkins County, New York",
+    "state": "36",
+    "county": "109",
+    "county_name": "Tompkins County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Ulster County, New York",
+    "state": "36",
+    "county": "111",
+    "county_name": "Ulster County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Warren County, New York",
+    "state": "36",
+    "county": "113",
+    "county_name": "Warren County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Wayne County, New York",
+    "state": "36",
+    "county": "117",
+    "county_name": "Wayne County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Westchester County, New York",
+    "state": "36",
+    "county": "119",
+    "county_name": "Westchester County",
+    "state_name": "New York"
+  },
+  {
+    "NAME": "Alamance County, North Carolina",
+    "state": "37",
+    "county": "001",
+    "county_name": "Alamance County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Brunswick County, North Carolina",
+    "state": "37",
+    "county": "019",
+    "county_name": "Brunswick County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Buncombe County, North Carolina",
+    "state": "37",
+    "county": "021",
+    "county_name": "Buncombe County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Burke County, North Carolina",
+    "state": "37",
+    "county": "023",
+    "county_name": "Burke County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Cabarrus County, North Carolina",
+    "state": "37",
+    "county": "025",
+    "county_name": "Cabarrus County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Caldwell County, North Carolina",
+    "state": "37",
+    "county": "027",
+    "county_name": "Caldwell County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Carteret County, North Carolina",
+    "state": "37",
+    "county": "031",
+    "county_name": "Carteret County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Catawba County, North Carolina",
+    "state": "37",
+    "county": "035",
+    "county_name": "Catawba County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Chatham County, North Carolina",
+    "state": "37",
+    "county": "037",
+    "county_name": "Chatham County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Cleveland County, North Carolina",
+    "state": "37",
+    "county": "045",
+    "county_name": "Cleveland County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Craven County, North Carolina",
+    "state": "37",
+    "county": "049",
+    "county_name": "Craven County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Cumberland County, North Carolina",
+    "state": "37",
+    "county": "051",
+    "county_name": "Cumberland County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Davidson County, North Carolina",
+    "state": "37",
+    "county": "057",
+    "county_name": "Davidson County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Durham County, North Carolina",
+    "state": "37",
+    "county": "063",
+    "county_name": "Durham County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Forsyth County, North Carolina",
+    "state": "37",
+    "county": "067",
+    "county_name": "Forsyth County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Franklin County, North Carolina",
+    "state": "37",
+    "county": "069",
+    "county_name": "Franklin County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Gaston County, North Carolina",
+    "state": "37",
+    "county": "071",
+    "county_name": "Gaston County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Guilford County, North Carolina",
+    "state": "37",
+    "county": "081",
+    "county_name": "Guilford County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Harnett County, North Carolina",
+    "state": "37",
+    "county": "085",
+    "county_name": "Harnett County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Henderson County, North Carolina",
+    "state": "37",
+    "county": "089",
+    "county_name": "Henderson County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Iredell County, North Carolina",
+    "state": "37",
+    "county": "097",
+    "county_name": "Iredell County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Johnston County, North Carolina",
+    "state": "37",
+    "county": "101",
+    "county_name": "Johnston County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Lee County, North Carolina",
+    "state": "37",
+    "county": "105",
+    "county_name": "Lee County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Lincoln County, North Carolina",
+    "state": "37",
+    "county": "109",
+    "county_name": "Lincoln County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Mecklenburg County, North Carolina",
+    "state": "37",
+    "county": "119",
+    "county_name": "Mecklenburg County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Moore County, North Carolina",
+    "state": "37",
+    "county": "125",
+    "county_name": "Moore County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Nash County, North Carolina",
+    "state": "37",
+    "county": "127",
+    "county_name": "Nash County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "New Hanover County, North Carolina",
+    "state": "37",
+    "county": "129",
+    "county_name": "New Hanover County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Onslow County, North Carolina",
+    "state": "37",
+    "county": "133",
+    "county_name": "Onslow County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Orange County, North Carolina",
+    "state": "37",
+    "county": "135",
+    "county_name": "Orange County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Pender County, North Carolina",
+    "state": "37",
+    "county": "141",
+    "county_name": "Pender County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Pitt County, North Carolina",
+    "state": "37",
+    "county": "147",
+    "county_name": "Pitt County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Randolph County, North Carolina",
+    "state": "37",
+    "county": "151",
+    "county_name": "Randolph County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Robeson County, North Carolina",
+    "state": "37",
+    "county": "155",
+    "county_name": "Robeson County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Rockingham County, North Carolina",
+    "state": "37",
+    "county": "157",
+    "county_name": "Rockingham County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Rowan County, North Carolina",
+    "state": "37",
+    "county": "159",
+    "county_name": "Rowan County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Rutherford County, North Carolina",
+    "state": "37",
+    "county": "161",
+    "county_name": "Rutherford County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Stanly County, North Carolina",
+    "state": "37",
+    "county": "167",
+    "county_name": "Stanly County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Surry County, North Carolina",
+    "state": "37",
+    "county": "171",
+    "county_name": "Surry County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Union County, North Carolina",
+    "state": "37",
+    "county": "179",
+    "county_name": "Union County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Wake County, North Carolina",
+    "state": "37",
+    "county": "183",
+    "county_name": "Wake County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Wayne County, North Carolina",
+    "state": "37",
+    "county": "191",
+    "county_name": "Wayne County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Wilkes County, North Carolina",
+    "state": "37",
+    "county": "193",
+    "county_name": "Wilkes County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Wilson County, North Carolina",
+    "state": "37",
+    "county": "195",
+    "county_name": "Wilson County",
+    "state_name": "North Carolina"
+  },
+  {
+    "NAME": "Burleigh County, North Dakota",
+    "state": "38",
+    "county": "015",
+    "county_name": "Burleigh County",
+    "state_name": "North Dakota"
+  },
+  {
+    "NAME": "Cass County, North Dakota",
+    "state": "38",
+    "county": "017",
+    "county_name": "Cass County",
+    "state_name": "North Dakota"
+  },
+  {
+    "NAME": "Grand Forks County, North Dakota",
+    "state": "38",
+    "county": "035",
+    "county_name": "Grand Forks County",
+    "state_name": "North Dakota"
+  },
+  {
+    "NAME": "Ward County, North Dakota",
+    "state": "38",
+    "county": "101",
+    "county_name": "Ward County",
+    "state_name": "North Dakota"
+  },
+  {
+    "NAME": "Allen County, Ohio",
+    "state": "39",
+    "county": "003",
+    "county_name": "Allen County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Ashtabula County, Ohio",
+    "state": "39",
+    "county": "007",
+    "county_name": "Ashtabula County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Belmont County, Ohio",
+    "state": "39",
+    "county": "013",
+    "county_name": "Belmont County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Butler County, Ohio",
+    "state": "39",
+    "county": "017",
+    "county_name": "Butler County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Clark County, Ohio",
+    "state": "39",
+    "county": "023",
+    "county_name": "Clark County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Clermont County, Ohio",
+    "state": "39",
+    "county": "025",
+    "county_name": "Clermont County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Columbiana County, Ohio",
+    "state": "39",
+    "county": "029",
+    "county_name": "Columbiana County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Cuyahoga County, Ohio",
+    "state": "39",
+    "county": "035",
+    "county_name": "Cuyahoga County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Delaware County, Ohio",
+    "state": "39",
+    "county": "041",
+    "county_name": "Delaware County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Erie County, Ohio",
+    "state": "39",
+    "county": "043",
+    "county_name": "Erie County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Fairfield County, Ohio",
+    "state": "39",
+    "county": "045",
+    "county_name": "Fairfield County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Franklin County, Ohio",
+    "state": "39",
+    "county": "049",
+    "county_name": "Franklin County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Geauga County, Ohio",
+    "state": "39",
+    "county": "055",
+    "county_name": "Geauga County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Greene County, Ohio",
+    "state": "39",
+    "county": "057",
+    "county_name": "Greene County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Hamilton County, Ohio",
+    "state": "39",
+    "county": "061",
+    "county_name": "Hamilton County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Hancock County, Ohio",
+    "state": "39",
+    "county": "063",
+    "county_name": "Hancock County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Lake County, Ohio",
+    "state": "39",
+    "county": "085",
+    "county_name": "Lake County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Licking County, Ohio",
+    "state": "39",
+    "county": "089",
+    "county_name": "Licking County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Lorain County, Ohio",
+    "state": "39",
+    "county": "093",
+    "county_name": "Lorain County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Lucas County, Ohio",
+    "state": "39",
+    "county": "095",
+    "county_name": "Lucas County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Mahoning County, Ohio",
+    "state": "39",
+    "county": "099",
+    "county_name": "Mahoning County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Marion County, Ohio",
+    "state": "39",
+    "county": "101",
+    "county_name": "Marion County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Medina County, Ohio",
+    "state": "39",
+    "county": "103",
+    "county_name": "Medina County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Miami County, Ohio",
+    "state": "39",
+    "county": "109",
+    "county_name": "Miami County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Montgomery County, Ohio",
+    "state": "39",
+    "county": "113",
+    "county_name": "Montgomery County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Muskingum County, Ohio",
+    "state": "39",
+    "county": "119",
+    "county_name": "Muskingum County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Portage County, Ohio",
+    "state": "39",
+    "county": "133",
+    "county_name": "Portage County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Richland County, Ohio",
+    "state": "39",
+    "county": "139",
+    "county_name": "Richland County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Ross County, Ohio",
+    "state": "39",
+    "county": "141",
+    "county_name": "Ross County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Scioto County, Ohio",
+    "state": "39",
+    "county": "145",
+    "county_name": "Scioto County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Stark County, Ohio",
+    "state": "39",
+    "county": "151",
+    "county_name": "Stark County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Summit County, Ohio",
+    "state": "39",
+    "county": "153",
+    "county_name": "Summit County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Trumbull County, Ohio",
+    "state": "39",
+    "county": "155",
+    "county_name": "Trumbull County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Tuscarawas County, Ohio",
+    "state": "39",
+    "county": "157",
+    "county_name": "Tuscarawas County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Union County, Ohio",
+    "state": "39",
+    "county": "159",
+    "county_name": "Union County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Warren County, Ohio",
+    "state": "39",
+    "county": "165",
+    "county_name": "Warren County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Wayne County, Ohio",
+    "state": "39",
+    "county": "169",
+    "county_name": "Wayne County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Wood County, Ohio",
+    "state": "39",
+    "county": "173",
+    "county_name": "Wood County",
+    "state_name": "Ohio"
+  },
+  {
+    "NAME": "Canadian County, Oklahoma",
+    "state": "40",
+    "county": "017",
+    "county_name": "Canadian County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Cleveland County, Oklahoma",
+    "state": "40",
+    "county": "027",
+    "county_name": "Cleveland County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Comanche County, Oklahoma",
+    "state": "40",
+    "county": "031",
+    "county_name": "Comanche County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Creek County, Oklahoma",
+    "state": "40",
+    "county": "037",
+    "county_name": "Creek County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Muskogee County, Oklahoma",
+    "state": "40",
+    "county": "101",
+    "county_name": "Muskogee County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Oklahoma County, Oklahoma",
+    "state": "40",
+    "county": "109",
+    "county_name": "Oklahoma County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Payne County, Oklahoma",
+    "state": "40",
+    "county": "119",
+    "county_name": "Payne County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Pottawatomie County, Oklahoma",
+    "state": "40",
+    "county": "125",
+    "county_name": "Pottawatomie County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Rogers County, Oklahoma",
+    "state": "40",
+    "county": "131",
+    "county_name": "Rogers County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Tulsa County, Oklahoma",
+    "state": "40",
+    "county": "143",
+    "county_name": "Tulsa County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Wagoner County, Oklahoma",
+    "state": "40",
+    "county": "145",
+    "county_name": "Wagoner County",
+    "state_name": "Oklahoma"
+  },
+  {
+    "NAME": "Benton County, Oregon",
+    "state": "41",
+    "county": "003",
+    "county_name": "Benton County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Clackamas County, Oregon",
+    "state": "41",
+    "county": "005",
+    "county_name": "Clackamas County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Deschutes County, Oregon",
+    "state": "41",
+    "county": "017",
+    "county_name": "Deschutes County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Douglas County, Oregon",
+    "state": "41",
+    "county": "019",
+    "county_name": "Douglas County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Jackson County, Oregon",
+    "state": "41",
+    "county": "029",
+    "county_name": "Jackson County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Josephine County, Oregon",
+    "state": "41",
+    "county": "033",
+    "county_name": "Josephine County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Klamath County, Oregon",
+    "state": "41",
+    "county": "035",
+    "county_name": "Klamath County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Lane County, Oregon",
+    "state": "41",
+    "county": "039",
+    "county_name": "Lane County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Linn County, Oregon",
+    "state": "41",
+    "county": "043",
+    "county_name": "Linn County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Marion County, Oregon",
+    "state": "41",
+    "county": "047",
+    "county_name": "Marion County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Multnomah County, Oregon",
+    "state": "41",
+    "county": "051",
+    "county_name": "Multnomah County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Polk County, Oregon",
+    "state": "41",
+    "county": "053",
+    "county_name": "Polk County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Umatilla County, Oregon",
+    "state": "41",
+    "county": "059",
+    "county_name": "Umatilla County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Washington County, Oregon",
+    "state": "41",
+    "county": "067",
+    "county_name": "Washington County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Yamhill County, Oregon",
+    "state": "41",
+    "county": "071",
+    "county_name": "Yamhill County",
+    "state_name": "Oregon"
+  },
+  {
+    "NAME": "Adams County, Pennsylvania",
+    "state": "42",
+    "county": "001",
+    "county_name": "Adams County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Allegheny County, Pennsylvania",
+    "state": "42",
+    "county": "003",
+    "county_name": "Allegheny County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Armstrong County, Pennsylvania",
+    "state": "42",
+    "county": "005",
+    "county_name": "Armstrong County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Beaver County, Pennsylvania",
+    "state": "42",
+    "county": "007",
+    "county_name": "Beaver County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Berks County, Pennsylvania",
+    "state": "42",
+    "county": "011",
+    "county_name": "Berks County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Blair County, Pennsylvania",
+    "state": "42",
+    "county": "013",
+    "county_name": "Blair County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Bucks County, Pennsylvania",
+    "state": "42",
+    "county": "017",
+    "county_name": "Bucks County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Butler County, Pennsylvania",
+    "state": "42",
+    "county": "019",
+    "county_name": "Butler County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Cambria County, Pennsylvania",
+    "state": "42",
+    "county": "021",
+    "county_name": "Cambria County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Carbon County, Pennsylvania",
+    "state": "42",
+    "county": "025",
+    "county_name": "Carbon County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Centre County, Pennsylvania",
+    "state": "42",
+    "county": "027",
+    "county_name": "Centre County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Chester County, Pennsylvania",
+    "state": "42",
+    "county": "029",
+    "county_name": "Chester County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Clearfield County, Pennsylvania",
+    "state": "42",
+    "county": "033",
+    "county_name": "Clearfield County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Columbia County, Pennsylvania",
+    "state": "42",
+    "county": "037",
+    "county_name": "Columbia County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Crawford County, Pennsylvania",
+    "state": "42",
+    "county": "039",
+    "county_name": "Crawford County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Cumberland County, Pennsylvania",
+    "state": "42",
+    "county": "041",
+    "county_name": "Cumberland County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Dauphin County, Pennsylvania",
+    "state": "42",
+    "county": "043",
+    "county_name": "Dauphin County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Delaware County, Pennsylvania",
+    "state": "42",
+    "county": "045",
+    "county_name": "Delaware County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Erie County, Pennsylvania",
+    "state": "42",
+    "county": "049",
+    "county_name": "Erie County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Fayette County, Pennsylvania",
+    "state": "42",
+    "county": "051",
+    "county_name": "Fayette County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Franklin County, Pennsylvania",
+    "state": "42",
+    "county": "055",
+    "county_name": "Franklin County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Indiana County, Pennsylvania",
+    "state": "42",
+    "county": "063",
+    "county_name": "Indiana County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Lackawanna County, Pennsylvania",
+    "state": "42",
+    "county": "069",
+    "county_name": "Lackawanna County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Lancaster County, Pennsylvania",
+    "state": "42",
+    "county": "071",
+    "county_name": "Lancaster County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Lawrence County, Pennsylvania",
+    "state": "42",
+    "county": "073",
+    "county_name": "Lawrence County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Lebanon County, Pennsylvania",
+    "state": "42",
+    "county": "075",
+    "county_name": "Lebanon County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Lehigh County, Pennsylvania",
+    "state": "42",
+    "county": "077",
+    "county_name": "Lehigh County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Luzerne County, Pennsylvania",
+    "state": "42",
+    "county": "079",
+    "county_name": "Luzerne County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Lycoming County, Pennsylvania",
+    "state": "42",
+    "county": "081",
+    "county_name": "Lycoming County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Mercer County, Pennsylvania",
+    "state": "42",
+    "county": "085",
+    "county_name": "Mercer County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Monroe County, Pennsylvania",
+    "state": "42",
+    "county": "089",
+    "county_name": "Monroe County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Montgomery County, Pennsylvania",
+    "state": "42",
+    "county": "091",
+    "county_name": "Montgomery County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Northampton County, Pennsylvania",
+    "state": "42",
+    "county": "095",
+    "county_name": "Northampton County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Northumberland County, Pennsylvania",
+    "state": "42",
+    "county": "097",
+    "county_name": "Northumberland County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Philadelphia County, Pennsylvania",
+    "state": "42",
+    "county": "101",
+    "county_name": "Philadelphia County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Schuylkill County, Pennsylvania",
+    "state": "42",
+    "county": "107",
+    "county_name": "Schuylkill County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Somerset County, Pennsylvania",
+    "state": "42",
+    "county": "111",
+    "county_name": "Somerset County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Washington County, Pennsylvania",
+    "state": "42",
+    "county": "125",
+    "county_name": "Washington County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Westmoreland County, Pennsylvania",
+    "state": "42",
+    "county": "129",
+    "county_name": "Westmoreland County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "York County, Pennsylvania",
+    "state": "42",
+    "county": "133",
+    "county_name": "York County",
+    "state_name": "Pennsylvania"
+  },
+  {
+    "NAME": "Kent County, Rhode Island",
+    "state": "44",
+    "county": "003",
+    "county_name": "Kent County",
+    "state_name": "Rhode Island"
+  },
+  {
+    "NAME": "Newport County, Rhode Island",
+    "state": "44",
+    "county": "005",
+    "county_name": "Newport County",
+    "state_name": "Rhode Island"
+  },
+  {
+    "NAME": "Providence County, Rhode Island",
+    "state": "44",
+    "county": "007",
+    "county_name": "Providence County",
+    "state_name": "Rhode Island"
+  },
+  {
+    "NAME": "Washington County, Rhode Island",
+    "state": "44",
+    "county": "009",
+    "county_name": "Washington County",
+    "state_name": "Rhode Island"
+  },
+  {
+    "NAME": "Aiken County, South Carolina",
+    "state": "45",
+    "county": "003",
+    "county_name": "Aiken County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Anderson County, South Carolina",
+    "state": "45",
+    "county": "007",
+    "county_name": "Anderson County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Beaufort County, South Carolina",
+    "state": "45",
+    "county": "013",
+    "county_name": "Beaufort County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Berkeley County, South Carolina",
+    "state": "45",
+    "county": "015",
+    "county_name": "Berkeley County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Charleston County, South Carolina",
+    "state": "45",
+    "county": "019",
+    "county_name": "Charleston County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Dorchester County, South Carolina",
+    "state": "45",
+    "county": "035",
+    "county_name": "Dorchester County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Florence County, South Carolina",
+    "state": "45",
+    "county": "041",
+    "county_name": "Florence County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Georgetown County, South Carolina",
+    "state": "45",
+    "county": "043",
+    "county_name": "Georgetown County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Greenville County, South Carolina",
+    "state": "45",
+    "county": "045",
+    "county_name": "Greenville County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Greenwood County, South Carolina",
+    "state": "45",
+    "county": "047",
+    "county_name": "Greenwood County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Horry County, South Carolina",
+    "state": "45",
+    "county": "051",
+    "county_name": "Horry County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Kershaw County, South Carolina",
+    "state": "45",
+    "county": "055",
+    "county_name": "Kershaw County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Lancaster County, South Carolina",
+    "state": "45",
+    "county": "057",
+    "county_name": "Lancaster County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Laurens County, South Carolina",
+    "state": "45",
+    "county": "059",
+    "county_name": "Laurens County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Lexington County, South Carolina",
+    "state": "45",
+    "county": "063",
+    "county_name": "Lexington County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Oconee County, South Carolina",
+    "state": "45",
+    "county": "073",
+    "county_name": "Oconee County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Orangeburg County, South Carolina",
+    "state": "45",
+    "county": "075",
+    "county_name": "Orangeburg County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Pickens County, South Carolina",
+    "state": "45",
+    "county": "077",
+    "county_name": "Pickens County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Richland County, South Carolina",
+    "state": "45",
+    "county": "079",
+    "county_name": "Richland County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Spartanburg County, South Carolina",
+    "state": "45",
+    "county": "083",
+    "county_name": "Spartanburg County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Sumter County, South Carolina",
+    "state": "45",
+    "county": "085",
+    "county_name": "Sumter County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "York County, South Carolina",
+    "state": "45",
+    "county": "091",
+    "county_name": "York County",
+    "state_name": "South Carolina"
+  },
+  {
+    "NAME": "Lincoln County, South Dakota",
+    "state": "46",
+    "county": "083",
+    "county_name": "Lincoln County",
+    "state_name": "South Dakota"
+  },
+  {
+    "NAME": "Minnehaha County, South Dakota",
+    "state": "46",
+    "county": "099",
+    "county_name": "Minnehaha County",
+    "state_name": "South Dakota"
+  },
+  {
+    "NAME": "Pennington County, South Dakota",
+    "state": "46",
+    "county": "103",
+    "county_name": "Pennington County",
+    "state_name": "South Dakota"
+  },
+  {
+    "NAME": "Anderson County, Tennessee",
+    "state": "47",
+    "county": "001",
+    "county_name": "Anderson County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Blount County, Tennessee",
+    "state": "47",
+    "county": "009",
+    "county_name": "Blount County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Bradley County, Tennessee",
+    "state": "47",
+    "county": "011",
+    "county_name": "Bradley County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Davidson County, Tennessee",
+    "state": "47",
+    "county": "037",
+    "county_name": "Davidson County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Greene County, Tennessee",
+    "state": "47",
+    "county": "059",
+    "county_name": "Greene County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Hamblen County, Tennessee",
+    "state": "47",
+    "county": "063",
+    "county_name": "Hamblen County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Hamilton County, Tennessee",
+    "state": "47",
+    "county": "065",
+    "county_name": "Hamilton County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Knox County, Tennessee",
+    "state": "47",
+    "county": "093",
+    "county_name": "Knox County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Madison County, Tennessee",
+    "state": "47",
+    "county": "113",
+    "county_name": "Madison County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Maury County, Tennessee",
+    "state": "47",
+    "county": "119",
+    "county_name": "Maury County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Montgomery County, Tennessee",
+    "state": "47",
+    "county": "125",
+    "county_name": "Montgomery County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Putnam County, Tennessee",
+    "state": "47",
+    "county": "141",
+    "county_name": "Putnam County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Robertson County, Tennessee",
+    "state": "47",
+    "county": "147",
+    "county_name": "Robertson County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Rutherford County, Tennessee",
+    "state": "47",
+    "county": "149",
+    "county_name": "Rutherford County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Sevier County, Tennessee",
+    "state": "47",
+    "county": "155",
+    "county_name": "Sevier County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Shelby County, Tennessee",
+    "state": "47",
+    "county": "157",
+    "county_name": "Shelby County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Sullivan County, Tennessee",
+    "state": "47",
+    "county": "163",
+    "county_name": "Sullivan County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Sumner County, Tennessee",
+    "state": "47",
+    "county": "165",
+    "county_name": "Sumner County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Washington County, Tennessee",
+    "state": "47",
+    "county": "179",
+    "county_name": "Washington County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Williamson County, Tennessee",
+    "state": "47",
+    "county": "187",
+    "county_name": "Williamson County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Wilson County, Tennessee",
+    "state": "47",
+    "county": "189",
+    "county_name": "Wilson County",
+    "state_name": "Tennessee"
+  },
+  {
+    "NAME": "Angelina County, Texas",
+    "state": "48",
+    "county": "005",
+    "county_name": "Angelina County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Bastrop County, Texas",
+    "state": "48",
+    "county": "021",
+    "county_name": "Bastrop County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Bell County, Texas",
+    "state": "48",
+    "county": "027",
+    "county_name": "Bell County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Bexar County, Texas",
+    "state": "48",
+    "county": "029",
+    "county_name": "Bexar County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Bowie County, Texas",
+    "state": "48",
+    "county": "037",
+    "county_name": "Bowie County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Brazoria County, Texas",
+    "state": "48",
+    "county": "039",
+    "county_name": "Brazoria County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Brazos County, Texas",
+    "state": "48",
+    "county": "041",
+    "county_name": "Brazos County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Cameron County, Texas",
+    "state": "48",
+    "county": "061",
+    "county_name": "Cameron County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Collin County, Texas",
+    "state": "48",
+    "county": "085",
+    "county_name": "Collin County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Comal County, Texas",
+    "state": "48",
+    "county": "091",
+    "county_name": "Comal County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Coryell County, Texas",
+    "state": "48",
+    "county": "099",
+    "county_name": "Coryell County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Dallas County, Texas",
+    "state": "48",
+    "county": "113",
+    "county_name": "Dallas County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Denton County, Texas",
+    "state": "48",
+    "county": "121",
+    "county_name": "Denton County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Ector County, Texas",
+    "state": "48",
+    "county": "135",
+    "county_name": "Ector County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Ellis County, Texas",
+    "state": "48",
+    "county": "139",
+    "county_name": "Ellis County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "El Paso County, Texas",
+    "state": "48",
+    "county": "141",
+    "county_name": "El Paso County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Fort Bend County, Texas",
+    "state": "48",
+    "county": "157",
+    "county_name": "Fort Bend County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Galveston County, Texas",
+    "state": "48",
+    "county": "167",
+    "county_name": "Galveston County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Grayson County, Texas",
+    "state": "48",
+    "county": "181",
+    "county_name": "Grayson County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Gregg County, Texas",
+    "state": "48",
+    "county": "183",
+    "county_name": "Gregg County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Guadalupe County, Texas",
+    "state": "48",
+    "county": "187",
+    "county_name": "Guadalupe County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Harris County, Texas",
+    "state": "48",
+    "county": "201",
+    "county_name": "Harris County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Harrison County, Texas",
+    "state": "48",
+    "county": "203",
+    "county_name": "Harrison County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Hays County, Texas",
+    "state": "48",
+    "county": "209",
+    "county_name": "Hays County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Henderson County, Texas",
+    "state": "48",
+    "county": "213",
+    "county_name": "Henderson County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Hidalgo County, Texas",
+    "state": "48",
+    "county": "215",
+    "county_name": "Hidalgo County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Hood County, Texas",
+    "state": "48",
+    "county": "221",
+    "county_name": "Hood County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Hunt County, Texas",
+    "state": "48",
+    "county": "231",
+    "county_name": "Hunt County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Jefferson County, Texas",
+    "state": "48",
+    "county": "245",
+    "county_name": "Jefferson County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Johnson County, Texas",
+    "state": "48",
+    "county": "251",
+    "county_name": "Johnson County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Kaufman County, Texas",
+    "state": "48",
+    "county": "257",
+    "county_name": "Kaufman County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Liberty County, Texas",
+    "state": "48",
+    "county": "291",
+    "county_name": "Liberty County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Lubbock County, Texas",
+    "state": "48",
+    "county": "303",
+    "county_name": "Lubbock County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "McLennan County, Texas",
+    "state": "48",
+    "county": "309",
+    "county_name": "McLennan County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Midland County, Texas",
+    "state": "48",
+    "county": "329",
+    "county_name": "Midland County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Montgomery County, Texas",
+    "state": "48",
+    "county": "339",
+    "county_name": "Montgomery County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Nacogdoches County, Texas",
+    "state": "48",
+    "county": "347",
+    "county_name": "Nacogdoches County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Nueces County, Texas",
+    "state": "48",
+    "county": "355",
+    "county_name": "Nueces County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Orange County, Texas",
+    "state": "48",
+    "county": "361",
+    "county_name": "Orange County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Parker County, Texas",
+    "state": "48",
+    "county": "367",
+    "county_name": "Parker County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Potter County, Texas",
+    "state": "48",
+    "county": "375",
+    "county_name": "Potter County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Randall County, Texas",
+    "state": "48",
+    "county": "381",
+    "county_name": "Randall County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Rockwall County, Texas",
+    "state": "48",
+    "county": "397",
+    "county_name": "Rockwall County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "San Patricio County, Texas",
+    "state": "48",
+    "county": "409",
+    "county_name": "San Patricio County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Smith County, Texas",
+    "state": "48",
+    "county": "423",
+    "county_name": "Smith County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Starr County, Texas",
+    "state": "48",
+    "county": "427",
+    "county_name": "Starr County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Tarrant County, Texas",
+    "state": "48",
+    "county": "439",
+    "county_name": "Tarrant County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Taylor County, Texas",
+    "state": "48",
+    "county": "441",
+    "county_name": "Taylor County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Tom Green County, Texas",
+    "state": "48",
+    "county": "451",
+    "county_name": "Tom Green County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Travis County, Texas",
+    "state": "48",
+    "county": "453",
+    "county_name": "Travis County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Victoria County, Texas",
+    "state": "48",
+    "county": "469",
+    "county_name": "Victoria County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Walker County, Texas",
+    "state": "48",
+    "county": "471",
+    "county_name": "Walker County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Webb County, Texas",
+    "state": "48",
+    "county": "479",
+    "county_name": "Webb County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Wichita County, Texas",
+    "state": "48",
+    "county": "485",
+    "county_name": "Wichita County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Williamson County, Texas",
+    "state": "48",
+    "county": "491",
+    "county_name": "Williamson County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Wise County, Texas",
+    "state": "48",
+    "county": "497",
+    "county_name": "Wise County",
+    "state_name": "Texas"
+  },
+  {
+    "NAME": "Cache County, Utah",
+    "state": "49",
+    "county": "005",
+    "county_name": "Cache County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Davis County, Utah",
+    "state": "49",
+    "county": "011",
+    "county_name": "Davis County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Salt Lake County, Utah",
+    "state": "49",
+    "county": "035",
+    "county_name": "Salt Lake County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Tooele County, Utah",
+    "state": "49",
+    "county": "045",
+    "county_name": "Tooele County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Utah County, Utah",
+    "state": "49",
+    "county": "049",
+    "county_name": "Utah County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Washington County, Utah",
+    "state": "49",
+    "county": "053",
+    "county_name": "Washington County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Weber County, Utah",
+    "state": "49",
+    "county": "057",
+    "county_name": "Weber County",
+    "state_name": "Utah"
+  },
+  {
+    "NAME": "Chittenden County, Vermont",
+    "state": "50",
+    "county": "007",
+    "county_name": "Chittenden County",
+    "state_name": "Vermont"
+  },
+  {
+    "NAME": "Albemarle County, Virginia",
+    "state": "51",
+    "county": "003",
+    "county_name": "Albemarle County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Arlington County, Virginia",
+    "state": "51",
+    "county": "013",
+    "county_name": "Arlington County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Augusta County, Virginia",
+    "state": "51",
+    "county": "015",
+    "county_name": "Augusta County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Bedford County, Virginia",
+    "state": "51",
+    "county": "019",
+    "county_name": "Bedford County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Chesterfield County, Virginia",
+    "state": "51",
+    "county": "041",
+    "county_name": "Chesterfield County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Fairfax County, Virginia",
+    "state": "51",
+    "county": "059",
+    "county_name": "Fairfax County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Fauquier County, Virginia",
+    "state": "51",
+    "county": "061",
+    "county_name": "Fauquier County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Frederick County, Virginia",
+    "state": "51",
+    "county": "069",
+    "county_name": "Frederick County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Hanover County, Virginia",
+    "state": "51",
+    "county": "085",
+    "county_name": "Hanover County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Henrico County, Virginia",
+    "state": "51",
+    "county": "087",
+    "county_name": "Henrico County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "James City County, Virginia",
+    "state": "51",
+    "county": "095",
+    "county_name": "James City County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Loudoun County, Virginia",
+    "state": "51",
+    "county": "107",
+    "county_name": "Loudoun County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Montgomery County, Virginia",
+    "state": "51",
+    "county": "121",
+    "county_name": "Montgomery County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Prince William County, Virginia",
+    "state": "51",
+    "county": "153",
+    "county_name": "Prince William County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Roanoke County, Virginia",
+    "state": "51",
+    "county": "161",
+    "county_name": "Roanoke County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Rockingham County, Virginia",
+    "state": "51",
+    "county": "165",
+    "county_name": "Rockingham County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Spotsylvania County, Virginia",
+    "state": "51",
+    "county": "177",
+    "county_name": "Spotsylvania County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Stafford County, Virginia",
+    "state": "51",
+    "county": "179",
+    "county_name": "Stafford County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "York County, Virginia",
+    "state": "51",
+    "county": "199",
+    "county_name": "York County",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Alexandria city, Virginia",
+    "state": "51",
+    "county": "510",
+    "county_name": "Alexandria city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Chesapeake city, Virginia",
+    "state": "51",
+    "county": "550",
+    "county_name": "Chesapeake city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Hampton city, Virginia",
+    "state": "51",
+    "county": "650",
+    "county_name": "Hampton city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Lynchburg city, Virginia",
+    "state": "51",
+    "county": "680",
+    "county_name": "Lynchburg city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Newport News city, Virginia",
+    "state": "51",
+    "county": "700",
+    "county_name": "Newport News city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Norfolk city, Virginia",
+    "state": "51",
+    "county": "710",
+    "county_name": "Norfolk city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Portsmouth city, Virginia",
+    "state": "51",
+    "county": "740",
+    "county_name": "Portsmouth city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Richmond city, Virginia",
+    "state": "51",
+    "county": "760",
+    "county_name": "Richmond city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Roanoke city, Virginia",
+    "state": "51",
+    "county": "770",
+    "county_name": "Roanoke city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Suffolk city, Virginia",
+    "state": "51",
+    "county": "800",
+    "county_name": "Suffolk city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Virginia Beach city, Virginia",
+    "state": "51",
+    "county": "810",
+    "county_name": "Virginia Beach city",
+    "state_name": "Virginia"
+  },
+  {
+    "NAME": "Benton County, Washington",
+    "state": "53",
+    "county": "005",
+    "county_name": "Benton County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Chelan County, Washington",
+    "state": "53",
+    "county": "007",
+    "county_name": "Chelan County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Clallam County, Washington",
+    "state": "53",
+    "county": "009",
+    "county_name": "Clallam County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Clark County, Washington",
+    "state": "53",
+    "county": "011",
+    "county_name": "Clark County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Cowlitz County, Washington",
+    "state": "53",
+    "county": "015",
+    "county_name": "Cowlitz County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Franklin County, Washington",
+    "state": "53",
+    "county": "021",
+    "county_name": "Franklin County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Grant County, Washington",
+    "state": "53",
+    "county": "025",
+    "county_name": "Grant County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Grays Harbor County, Washington",
+    "state": "53",
+    "county": "027",
+    "county_name": "Grays Harbor County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Island County, Washington",
+    "state": "53",
+    "county": "029",
+    "county_name": "Island County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "King County, Washington",
+    "state": "53",
+    "county": "033",
+    "county_name": "King County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Kitsap County, Washington",
+    "state": "53",
+    "county": "035",
+    "county_name": "Kitsap County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Lewis County, Washington",
+    "state": "53",
+    "county": "041",
+    "county_name": "Lewis County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Mason County, Washington",
+    "state": "53",
+    "county": "045",
+    "county_name": "Mason County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Pierce County, Washington",
+    "state": "53",
+    "county": "053",
+    "county_name": "Pierce County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Skagit County, Washington",
+    "state": "53",
+    "county": "057",
+    "county_name": "Skagit County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Snohomish County, Washington",
+    "state": "53",
+    "county": "061",
+    "county_name": "Snohomish County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Spokane County, Washington",
+    "state": "53",
+    "county": "063",
+    "county_name": "Spokane County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Thurston County, Washington",
+    "state": "53",
+    "county": "067",
+    "county_name": "Thurston County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Whatcom County, Washington",
+    "state": "53",
+    "county": "073",
+    "county_name": "Whatcom County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Yakima County, Washington",
+    "state": "53",
+    "county": "077",
+    "county_name": "Yakima County",
+    "state_name": "Washington"
+  },
+  {
+    "NAME": "Berkeley County, West Virginia",
+    "state": "54",
+    "county": "003",
+    "county_name": "Berkeley County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Cabell County, West Virginia",
+    "state": "54",
+    "county": "011",
+    "county_name": "Cabell County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Harrison County, West Virginia",
+    "state": "54",
+    "county": "033",
+    "county_name": "Harrison County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Kanawha County, West Virginia",
+    "state": "54",
+    "county": "039",
+    "county_name": "Kanawha County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Monongalia County, West Virginia",
+    "state": "54",
+    "county": "061",
+    "county_name": "Monongalia County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Raleigh County, West Virginia",
+    "state": "54",
+    "county": "081",
+    "county_name": "Raleigh County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Wood County, West Virginia",
+    "state": "54",
+    "county": "107",
+    "county_name": "Wood County",
+    "state_name": "West Virginia"
+  },
+  {
+    "NAME": "Brown County, Wisconsin",
+    "state": "55",
+    "county": "009",
+    "county_name": "Brown County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Chippewa County, Wisconsin",
+    "state": "55",
+    "county": "017",
+    "county_name": "Chippewa County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Dane County, Wisconsin",
+    "state": "55",
+    "county": "025",
+    "county_name": "Dane County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Dodge County, Wisconsin",
+    "state": "55",
+    "county": "027",
+    "county_name": "Dodge County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Eau Claire County, Wisconsin",
+    "state": "55",
+    "county": "035",
+    "county_name": "Eau Claire County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Fond du Lac County, Wisconsin",
+    "state": "55",
+    "county": "039",
+    "county_name": "Fond du Lac County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Jefferson County, Wisconsin",
+    "state": "55",
+    "county": "055",
+    "county_name": "Jefferson County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Kenosha County, Wisconsin",
+    "state": "55",
+    "county": "059",
+    "county_name": "Kenosha County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "La Crosse County, Wisconsin",
+    "state": "55",
+    "county": "063",
+    "county_name": "La Crosse County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Manitowoc County, Wisconsin",
+    "state": "55",
+    "county": "071",
+    "county_name": "Manitowoc County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Marathon County, Wisconsin",
+    "state": "55",
+    "county": "073",
+    "county_name": "Marathon County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Milwaukee County, Wisconsin",
+    "state": "55",
+    "county": "079",
+    "county_name": "Milwaukee County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Outagamie County, Wisconsin",
+    "state": "55",
+    "county": "087",
+    "county_name": "Outagamie County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Ozaukee County, Wisconsin",
+    "state": "55",
+    "county": "089",
+    "county_name": "Ozaukee County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Portage County, Wisconsin",
+    "state": "55",
+    "county": "097",
+    "county_name": "Portage County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Racine County, Wisconsin",
+    "state": "55",
+    "county": "101",
+    "county_name": "Racine County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Rock County, Wisconsin",
+    "state": "55",
+    "county": "105",
+    "county_name": "Rock County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "St. Croix County, Wisconsin",
+    "state": "55",
+    "county": "109",
+    "county_name": "St. Croix County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Sauk County, Wisconsin",
+    "state": "55",
+    "county": "111",
+    "county_name": "Sauk County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Sheboygan County, Wisconsin",
+    "state": "55",
+    "county": "117",
+    "county_name": "Sheboygan County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Walworth County, Wisconsin",
+    "state": "55",
+    "county": "127",
+    "county_name": "Walworth County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Washington County, Wisconsin",
+    "state": "55",
+    "county": "131",
+    "county_name": "Washington County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Waukesha County, Wisconsin",
+    "state": "55",
+    "county": "133",
+    "county_name": "Waukesha County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Winnebago County, Wisconsin",
+    "state": "55",
+    "county": "139",
+    "county_name": "Winnebago County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Wood County, Wisconsin",
+    "state": "55",
+    "county": "141",
+    "county_name": "Wood County",
+    "state_name": "Wisconsin"
+  },
+  {
+    "NAME": "Laramie County, Wyoming",
+    "state": "56",
+    "county": "021",
+    "county_name": "Laramie County",
+    "state_name": "Wyoming"
+  },
+  {
+    "NAME": "Natrona County, Wyoming",
+    "state": "56",
+    "county": "025",
+    "county_name": "Natrona County",
+    "state_name": "Wyoming"
+  },
+  {
+    "NAME": "Arecibo Municipio, Puerto Rico",
+    "state": "72",
+    "county": "013",
+    "county_name": "Arecibo Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Bayamón Municipio, Puerto Rico",
+    "state": "72",
+    "county": "021",
+    "county_name": "Bayamón Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Caguas Municipio, Puerto Rico",
+    "state": "72",
+    "county": "025",
+    "county_name": "Caguas Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Carolina Municipio, Puerto Rico",
+    "state": "72",
+    "county": "031",
+    "county_name": "Carolina Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Guaynabo Municipio, Puerto Rico",
+    "state": "72",
+    "county": "061",
+    "county_name": "Guaynabo Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Mayagüez Municipio, Puerto Rico",
+    "state": "72",
+    "county": "097",
+    "county_name": "Mayagüez Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Ponce Municipio, Puerto Rico",
+    "state": "72",
+    "county": "113",
+    "county_name": "Ponce Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "San Juan Municipio, Puerto Rico",
+    "state": "72",
+    "county": "127",
+    "county_name": "San Juan Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Toa Alta Municipio, Puerto Rico",
+    "state": "72",
+    "county": "135",
+    "county_name": "Toa Alta Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Toa Baja Municipio, Puerto Rico",
+    "state": "72",
+    "county": "137",
+    "county_name": "Toa Baja Municipio",
+    "state_name": "Puerto Rico"
+  },
+  {
+    "NAME": "Trujillo Alto Municipio, Puerto Rico",
+    "state": "72",
+    "county": "139",
+    "county_name": "Trujillo Alto Municipio",
+    "state_name": "Puerto Rico"
+  }
+]

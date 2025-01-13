@@ -1,0 +1,1425 @@
+"use client";
+
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import Map, {
+  Layer,
+  Source,
+  Popup,
+  NavigationControl,
+  AttributionControl,
+  FullscreenControl,
+  GeolocateControl,
+  Marker,
+  ScaleControl,
+  GeoJSONSource,
+} from "react-map-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
+import useMapStore from "@/store/useMapStore";
+import useTabsDataStore from "@/store/useTabsDataStore";
+import {
+  ChartColumnDecreasing,
+  ChartNoAxesColumnIncreasing,
+  Loader,
+  School,
+  Stethoscope,
+  SunDim,
+} from "lucide-react";
+import HeatmapLayer from "./HeatmapLayer";
+import { Tab, useTabStore } from "@/store/useTabStore";
+import { stateData } from "./statistics";
+import Link from "next/link";
+
+interface MapboxLayoutProps {
+  selectedStateId: string | null; // Accept selected state ID as a prop
+  selectedCountyIdB: string | null;
+  mapRefs: any;
+  getStateDetails: (stateId: string) => void;
+  getCountyDetails: (countyId: string, stateId: string) => void;
+  setStateName: (stateName: string) => void;
+  setCountyName: (countyName: string) => void;
+  placeDetails: any;
+  setPlaceDetails: (placeDetails: any) => void;
+  setCensusTractDetails: (censusTractDetails: any) => void;
+}
+
+const MapboxLayout: React.FC<MapboxLayoutProps> = ({
+  selectedStateId,
+  selectedCountyIdB,
+  mapRefs,
+  setPlaceDetails,
+  setCensusTractDetails,
+  placeDetails,
+}) => {
+  const mapRef = useRef<any>(null); // Ref to access Mapbox GL map instance
+  const { activeTab, setActiveTab } = useTabStore();
+  const [hoveredStateId, setHoveredStateId] = useState<string | null>(null);
+  const [hoverStateData, setHoverStateData] = useState<any | null>(null);
+  const [hoveredStateCoordinates, setHoveredStateCoordinates] = useState<
+    [number, number] | null
+  >(null);
+  const [clickedStateId, setClickedStateId] = useState<string | null>(null);
+  const [hoveredCountyId, setHoveredCountyId] = useState<string | null>(null);
+  const [hoverCensusTractId, setHoverCensusTractId] = useState<string | null>(
+    null
+  );
+  const [hoverCensusCoordinates, setHoverCensusCoordinates] = useState<
+    [number, number] | null
+  >(null);
+  const [selectedCountyId, setSelectedCountyId] = useState<string | null>(null);
+  // const [selectedTractCounty,setSelectedTractCounty] = useState<string | null>(null);
+  const [selectedCensusTractId, setSelectedCensusTractId] = useState<
+    string | null
+  >(null);
+  const [hoveredCountyData, setHoveredCountyData] = useState<any | null>(null);
+  const [hoveredCountyCoordinates, setHoveredCountyCoordinates] = useState<
+    [number, number] | null
+  >(null);
+  const [countyData, setCountyData] = useState<any | null>(null); // Original county data
+  const [filteredData, setFilteredData] = useState<any | null>(null); // Filtered county data
+  const [heatmapData, setHeatmapData] = useState<any | null>(null); // Data for heatmap
+  const [heatmapFetchData, setHeatmapFetchData] = useState<any[]>([]);
+  
+  const { zoom, setZoom } = useMapStore();
+  const {setCountyTabCountyId,setCountyTabStateId,setStateTabStateId} = useTabsDataStore();
+
+  const [currentZoom, setCurrentZoom] = useState<number>(3);
+
+  const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
+
+  // Fetch county data on initial load
+  useEffect(() => {
+    const fetchCountyData = async () => {
+      // const response = await fetch(
+      //   "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+      // );
+      const response2 = await fetch(
+        "https://raw.githubusercontent.com/Lalman888/County_state_fips_data_2023/refs/heads/main/cb_2023_us_county_500.json"
+      );
+
+      // const data = await response.json();
+      const data2 = await response2.json();
+      // console.log("county data", data);
+      // console.log("county data2", data2);
+      // setCountyData(data2);
+      if (data2) {
+        data2?.features?.forEach((feature: any) => {
+          feature.id = feature.properties.GEOID;
+          feature.properties.COUNTY = feature.properties.COUNTYFP;
+          feature.properties.STATE = feature.properties.STATEFP;
+          feature.properties.GEO_ID = feature.properties.GEOIDFQ;
+        });
+        setCountyData(data2);
+      }
+    };
+
+    fetchCountyData();
+  }, []);
+
+  useEffect(() => {
+    if (countyData) {
+      fetchHeatmapData();
+    }
+  }, [countyData]);
+
+  // console.log("county data", countyData);
+
+  // Transform provided data into GeoJSON
+  const transformHeatmapData = () => {
+    if (heatmapFetchData?.length === 0) {
+      return;
+    }
+
+    const geojson = {
+      type: "FeatureCollection",
+      features: heatmapFetchData.map((entry) => ({
+        type: "Feature",
+        geometry: {
+          type: entry.geometry.type,
+          coordinates: entry.geometry.coordinates,
+        },
+        properties: {
+          ...entry,
+        },
+      })),
+    };
+    setHeatmapData(geojson);
+  };
+
+  useEffect(() => {
+    transformHeatmapData();
+  }, [heatmapFetchData]);
+
+  const fetchHeatmapData = async () => {
+    setHeatmapLoading(true);
+    try {
+      const response = await fetch(
+        "https://dentalapi.cwsn.ai/county/allCountyScore"
+      );
+      const data = await response.json();
+
+      //  const proceData =  processData(countyData, data);
+      //  console.log("proceData", proceData);
+
+      if (data && countyData) {
+        // console.log("countyData", countyData);
+        // console.log("data", data);
+    //     const dataAItemsLength = countyData.features.length;
+    // console.log("dataAItemsLength ", dataAItemsLength);
+
+    // const dataBItemsLength = data.length;
+    // console.log("dataBItemsLength ", dataBItemsLength);
+
+
+    // const finalMatchedItemsLength = dataAItemsLength + dataBItemsLength;
+        const merge = mergeData(countyData, data);
+
+        // const mergeItemsLength = merge.length;
+        // console.log("mergeItemsLength ", mergeItemsLength);
+        // console.log("merge", merge);
+        setHeatmapFetchData(merge);
+      }
+
+      // setHeatmapFetchData(data);
+      setHeatmapLoading(false);
+    } catch (error) {
+      console.error("Error fetching heatmap data", error);
+      setHeatmapLoading(false);
+    }
+  };
+  // console.log("heatmap data", heatmapData);
+
+  // Filter data based on the clicked state
+  const filterDataByState = (stateId: string) => {
+    if (countyData) {
+      // console.log("stateId", stateId);
+      const filteredFeatures = countyData.features.filter(
+        (feature: any) => Number(feature.properties.STATEFP) === Number(stateId)
+      );
+      setFilteredData({
+        type: "FeatureCollection",
+        features: filteredFeatures,
+      });
+    }
+  };
+
+  // Debounced version of the hover handler
+  const handleHover = useCallback(
+    debounce((event: any) => {
+      const feature = event.features && event.features[0];
+      if (feature) {
+        setHoveredStateId(feature.id);
+        setHoverStateData(feature);
+        if (
+          event.lngLat &&
+          !isNaN(event.lngLat.lng) &&
+          !isNaN(event.lngLat.lat)
+        ) {
+          setHoveredStateCoordinates([event.lngLat.lng, event.lngLat.lat]);
+        }
+      } else {
+        setHoveredStateId(null);
+        setHoverStateData(null);
+        setHoveredStateCoordinates(null);
+      }
+    }, 200), // Adjust debounce delay as needed
+    []
+  );
+
+  const handleClick = (event: any) => {
+    const feature = event.features && event.features[0];
+    if (feature) {
+      const { id, properties } = feature;
+      setClickedStateId(id);
+      setStateTabStateId(id);
+      setCountyTabStateId(id);
+      setActiveTab(Tab.State);
+      // getStateDetails(id);
+      // console.log("clicked state", feature);
+      // setStateName(properties.name);
+
+      filterDataByState(id);
+
+      // Zoom to the clicked state
+      if (properties && properties.bbox) {
+        const [minLng, minLat, maxLng, maxLat] = properties.bbox;
+        mapRef.current?.flyTo({
+          center: [(minLng + maxLng) / 2, (minLat + maxLat) / 2], // Center of the bounding box
+          zoom: 7, // Adjust zoom level based on state size
+          essential: true, // Ensures animation is smooth
+        });
+      } else if (event.lngLat) {
+        // Fallback to the clicked point if bbox is unavailable
+        mapRef.current?.flyTo({
+          center: [event.lngLat.lng, event.lngLat.lat],
+          zoom: 7,
+          essential: true,
+        });
+      }
+    }
+  };
+
+  const handleCountyHover = useCallback(
+    debounce((event: any) => {
+      const feature = event.features && event.features[0];
+      if (feature) {
+        setHoveredCountyId(feature.id);
+        setHoveredCountyData(feature);
+        if (
+          event.lngLat &&
+          !isNaN(event.lngLat.lng) &&
+          !isNaN(event.lngLat.lat)
+        ) {
+          setHoveredCountyCoordinates([event.lngLat.lng, event.lngLat.lat]);
+        }
+      } else {
+        setHoveredCountyId(null);
+        setHoveredCountyData(null);
+        setHoveredCountyCoordinates(null);
+      }
+    }, 200), // Adjust debounce delay as needed
+    []
+  );
+
+  const handleCensusTractHover = useCallback(
+    debounce((event: any, censusTractFeature: any) => {
+      const feature = event.features && event.features[0];
+      // console.log(event,"feature census ", feature," censusTractFeature ",censusTractFeature);
+      if (censusTractFeature) {
+        setHoverCensusTractId(censusTractFeature.id);
+        if (
+          event.lngLat &&
+          !isNaN(event.lngLat.lng) &&
+          !isNaN(event.lngLat.lat)
+        ) {
+          setHoverCensusCoordinates([event.lngLat.lng, event.lngLat.lat]);
+        }
+      } else {
+        setHoverCensusTractId(null);
+        setHoverCensusCoordinates(null);
+      }
+    }, 200), // Adjust debounce delay as needed
+    []
+  );
+
+  const handleCountyClick = (event: any) => {
+    const feature = event.features && event.features[0];
+    // console.log(event.features,"feature ", event);
+
+    if (feature) {
+      const { id, properties } = feature;
+      console.log("BBox for county:", event);
+      console.log("properties ", event.lngLat,event.lngLat.lng,properties);
+      setHoveredCountyId(id); // Highlight the clicked county
+      setHoveredCountyData(feature);
+      setSelectedCountyId(id);
+      // console.log("properties ", properties,);
+      setCountyTabCountyId(properties?.COUNTYFP);
+      setActiveTab(Tab.County);
+
+      // Fetch census tract data after selecting the county
+      // setCensusTractDataVisible(true);
+
+      if (!clinicMarkersVisible) {
+        setClinicMarkersVisible(true);
+      }
+       console.log("properties ", properties, " = ",properties?.STATEFP);
+      //  setSelectedTractCounty(properties?.COUNTYFP);
+      fetchCensusTractData(properties.STATEFP,properties?.COUNTYFP);
+
+      // // Zoom to the clicked county
+      if (properties && properties.bbox) {
+        const [minLng, minLat, maxLng, maxLat] = properties.bbox;
+        mapRef.current?.flyTo({
+          center: [(minLng + maxLng) / 2, (minLat + maxLat) / 2], // Center of the bounding box
+          zoom: 9, // Higher zoom level for counties
+          essential: true,
+        });
+      } else if (event.lngLat) {
+        // Fallback to the clicked point if bbox is unavailable
+        mapRef.current?.flyTo({
+          center: [event.lngLat.lng, event.lngLat.lat],
+          zoom: 9,
+          essential: true,
+        });
+      }
+    }
+  };
+
+  // console.log("selectedTractCounty ", selectedTractCounty);
+
+  const handleCensusTractClick = (event: any, censusTractFeature: any) => {
+    console.log(
+      "handleCensusTractClick event ",
+      event,
+      " censusTractFeature ",
+      censusTractFeature
+    );
+    const feature = event.features && event.features[0];
+    // console.log("handleCensusTractClick feature ",feature);
+    if (feature) {
+      setCensusTractDetails(feature);
+      const { id, properties, geometry } = feature;
+      // console.log("handleCensusTractClick id ",id);
+      const INTPTLAT = properties?.INTPTLAT;
+      const INTPTLON = properties?.INTPTLON;
+      const coordinates = [INTPTLON, INTPTLAT];
+      console.log(" geo id", properties?.GEOIDFQ);
+      // setHoverCensusTractId(id); // Highlight the clicked county
+      // setHoveredCountyData(feature);
+      // setSelectedCensusTractId(id);
+      setActiveTab(Tab.Tract);
+
+      // Zoom to the clicked county
+      // if (properties && properties.bbox) {
+      //   const [minLng, minLat, maxLng, maxLat] = properties.bbox;
+      //   mapRef.current?.flyTo({
+      //     center: coordinates, // Center of the bounding box
+      //     zoom: 11, // Higher zoom level for counties
+      //     essential: true,
+      //   });
+      // } else if (event.lngLat) {
+      //   // Fallback to the clicked point if bbox is unavailable
+      //   mapRef.current?.flyTo({
+      //     center: [event.lngLat.lng, event.lngLat.lat],
+      //     zoom: 11,
+      //     essential: true,
+      //   });
+      // }
+
+      // Zoom to the clicked census tract
+      if (geometry && geometry.type === "Polygon") {
+        const coordinates = geometry.coordinates[0][0];
+        mapRef.current?.flyTo({
+          center: [coordinates[0], coordinates[1]],
+          zoom: 13, // Adjust zoom level as needed
+          essential: true,
+        });
+      } else if (geometry && geometry.type === "MultiPolygon") {
+        const coordinates = geometry.coordinates[0][0][0];
+        mapRef.current?.flyTo({
+          center: [coordinates[0], coordinates[1]],
+          zoom: 13, // Adjust zoom level as needed
+          essential: true,
+        });
+      }
+    }
+  };
+
+  useEffect(() => {
+    if (selectedStateId && countyData) {
+      const filteredFeatures = countyData.features.filter(
+        (feature: any) =>
+          feature.properties.STATEFP === selectedStateId.toString()
+      );
+      setFilteredData({
+        type: "FeatureCollection",
+        features: filteredFeatures,
+      });
+
+      // Zoom to the selected state
+      const stateFeature = countyData.features.find(
+        (feature: any) =>
+          feature.properties.STATEFP === selectedStateId.toString()
+      );
+
+      if (stateFeature && mapRef.current) {
+        const bbox = stateFeature.properties?.bbox;
+        if (bbox) {
+          const [minLng, minLat, maxLng, maxLat] = bbox;
+          mapRef.current.flyTo({
+            center: [(minLng + maxLng) / 2, (minLat + maxLat) / 2],
+            zoom: 8,
+            essential: true,
+          });
+        } else {
+          // Fallback to first geometry coordinate
+          let coordinates = stateFeature.geometry?.coordinates[0][0];
+          const type = stateFeature.geometry.type;
+          if (type === "MultiPolygon") {
+            coordinates = stateFeature.geometry?.coordinates[0][0][0];
+          } else {
+            coordinates = stateFeature.geometry?.coordinates[0][0];
+          }
+
+          // console.log("coordinates", coordinates);
+          // if (coordinates) {
+          //   mapRef.current.flyTo({
+          //     center: [coordinates[0], coordinates[1]],
+          //     zoom: 8,
+          //     essential: true,
+          //   });
+          // }
+        }
+      }
+    }
+  }, [selectedStateId, countyData]);
+
+  useEffect(() => {
+    if (selectedCountyIdB && countyData) {
+      // console.log("selectedCountyIdB", selectedCountyIdB," selectedStateId ",selectedStateId);
+
+      // const countyFeature = countyData.features.find(
+      //   (feature: any) =>
+      //     Number(feature.properties?.COUNTYFP) === Number(selectedCountyIdB)
+      // );
+      const countyFeature = countyData.features.find(
+        (feature: any) =>
+          Number(feature.properties?.COUNTYFP) === Number(selectedCountyIdB) &&
+          Number(feature.properties?.STATEFP) === Number(selectedStateId)
+      );
+
+      // console.log("countyFeature", countyFeature);
+
+      if (countyFeature && countyFeature.geometry && mapRef.current) {
+        // console.log("countyFeature s", countyFeature);
+        // const coordinates = countyFeature.geometry.coordinates[0][0];
+        let coordinates = countyFeature.geometry.coordinates[0][0];
+        if (countyFeature.geometry.type === "MultiPolygon") {
+          coordinates = countyFeature.geometry.coordinates[0][0][0];
+        } else {
+          coordinates = countyFeature.geometry.coordinates[0][0];
+        }
+
+        console.log("coordinates", coordinates);
+        if (coordinates) {
+          mapRef.current.flyTo({
+            center: [coordinates[0], coordinates[1]],
+            zoom: 8,
+            essential: true,
+          });
+        }
+      }
+    }
+  }, [selectedCountyIdB, countyData]);
+
+  // console.log(zoom," zoom ",mapRef.current, " ref ",mapRef.current?.getZoom())
+  // get zoom
+  useEffect(() => {
+    // console.log("zoom", zoom);
+    if (mapRef.current && zoom) {
+      if (zoom === 4) {
+        mapRef.current.flyTo({
+          center: [-101.3551675, 39.5189233],
+          zoom: zoom,
+          essential: true,
+        });
+      } else {
+        mapRef.current.flyTo({
+          zoom: zoom,
+          essential: true,
+        });
+      }
+      //  setZoom(mapRef.current.getZoom())
+    }
+  }, [zoom]);
+
+ 
+  const [heatmapVisible, setHeatmapVisible] = useState<boolean>(false); // State for heatmap visibility
+  const [heatmapLoading, setHeatmapLoading] = useState<boolean>(false); // State for heatmap loading
+  const [legendVisible, setLegendVisible] = useState(false);
+  const toggleHeatmapVisibility = () => {
+    setHeatmapVisible((prevState) => !prevState); // Toggle heatmap visibility
+    setLegendVisible((prevState) => !prevState); // Toggle legend visibility
+  };
+  const toggleLegendVisibility = () => {
+    setLegendVisible(!legendVisible);
+  };
+
+  const [schoolMarkersVisible, setSchoolMarkersVisible] = useState(false);
+  const [clinicMarkersVisible, setClinicMarkersVisible] = useState(false);
+
+  const toggleSchoolMarkers = () => {
+    setSchoolMarkersVisible((prev) => !prev);
+  };
+
+  const toggleClinicMarkers = () => {
+    setClinicMarkersVisible((prev) => !prev);
+  };
+
+  const [selectedClinicName, setSelectedClinicName] = useState<string>("");
+  const [selectedClinicCoordinates, setSelectedClinicCoordinates] = useState<
+    number[] | null
+  >(null);
+  // const [selectedClinicData, setSelectedClinicData] = useState<any | null>(null);
+  // const [selectedSchool, setSelectedSchool] = useState<any>(null);
+  const [selectedSchoolName, setSelectedSchoolName] = useState<string>("");
+  const [selectedSchoolCoordinates, setSelectedSchoolCoordinates] = useState<
+    number[] | null
+  >(null);
+
+  const [hoveredCoordinates, setHoveredCoordinates] = useState<
+    [number, number] | null
+  >(null);
+
+  const [clinicData, setClinicData] = useState<any[]>([]);
+  const [clinicDataLoading, setClinicDataLoading] = useState<boolean>(false);
+
+  const [schoolData, setSchoolData] = useState<any[]>([]);
+  const [schoolDataLoading, setSchoolDataLoading] = useState<boolean>(false);
+
+  const getClinicsData = async (bounds: any) => {
+    if (!bounds) {
+      return;
+    }
+    if (currentZoom < 8) {
+      return;
+    }
+    const { _ne, _sw } = bounds;
+    try {
+      setClinicDataLoading(true);
+      const response = await fetch(
+        `/api/clinics?minLat=${_sw.lat}&maxLat=${_ne.lat}&minLng=${_sw.lng}&maxLng=${_ne.lng}`
+      );
+
+      const data = await response.json();
+      setClinicData(data);
+      setClinicDataLoading(false);
+      // console.log("clinic data", data);
+    } catch (error) {
+      console.error("Error fetching clinic data:", error);
+      setClinicDataLoading(false);
+    }
+  };
+
+  const getSchoolData = async (bounds: any) => {
+    if (!bounds) {
+      return;
+    }
+    if (currentZoom < 8) {
+      return;
+    }
+    const { _ne, _sw } = bounds;
+    try {
+      setSchoolDataLoading(true);
+      const response = await fetch(
+        `/api/schools?minLat=${_sw.lat}&maxLat=${_ne.lat}&minLng=${_sw.lng}&maxLng=${_ne.lng}`
+      );
+
+      const data = await response.json();
+
+      setSchoolData(data);
+      setSchoolDataLoading(false);
+      // console.log("school data", data);
+    } catch (error) {
+      console.error("Error fetching school data:", error);
+      setSchoolDataLoading(false);
+    }
+  };
+
+  // useEffect(() => {
+  //   getClinicsData();
+  // }, []);
+
+  const debouncedFetchClinics = debounce(getClinicsData, 2500);
+  const debouncedFetchSchools = debounce(getSchoolData, 2500);
+
+  // Debounced version of the zoom handler
+  const handleZoomChange = useCallback(
+    debounce(() => {
+      const currentZoom = mapRef.current?.getZoom();
+      setCurrentZoom(currentZoom);
+
+      if (currentZoom >= 8) {
+        const bounds = mapRef.current.getBounds();
+        debouncedFetchClinics(bounds); // Fetch clinic data only when zoomed in
+        debouncedFetchSchools(bounds); // Fetch school data only when zoomed in
+      }
+    }, 250), // Adjust debounce delay as needed
+    []
+  );
+
+  useEffect(() => {
+    if (mapRef.current) {
+      const bounds = mapRef.current.getBounds();
+      // console.log("bounds ",bounds)
+      debouncedFetchClinics(bounds);
+      debouncedFetchSchools(bounds);
+    }
+  }, []);
+
+  const [censusTractData, setCensusTractData] = useState<any | null>(null);
+  const [censusTractDataLoading, setCensusTractDataLoading] =
+    useState<boolean>(false);
+  const [censusTractDataVisible, setCensusTractDataVisible] =
+    useState<boolean>(false);
+
+  // Function to fetch census tract data
+  const fetchCensusTractData = async (id: string,countyid?:string) => {
+    setCensusTractDataLoading(true); // Start loading
+    try {
+      // const response = await fetch(
+      //   "https://raw.githubusercontent.com/Lalman888/County_state_fips_data_2023/refs/heads/main/tl_2024_48_tract.json"
+      // );
+      const respons1 = await fetch(
+        `https://raw.githubusercontent.com/Lalman888/County_state_fips_data_2023/refs/heads/main/tl_2024_${id}_tract.json`
+      );
+      // const data = await response.json();
+      const data = await respons1.json();
+      console.log("census tract data", data);
+
+      if (data) {
+        // Filter census tracts by selected county
+        // const tempCountSt = selectedCountyId?.toString();
+        // const tempCount = tempCountSt?.substring(2, 5);
+        // // console.log("selectedCountyId ", tempCount);
+        // const filteredTracts = data.features.filter(
+        //   (feature: any) => feature?.properties?.COUNTYFP === tempCount
+        // );
+        // console.log("filteredTracts ", filteredTracts);
+      }
+      // console.log("census tract data1 ", data);
+      // console.log("census tract data", data);
+
+      if (data) {
+        data.features.forEach((feature: any) => {
+          feature.id = feature.properties.GEOID; // Add unique IDs
+        });
+        const tempCountSt = selectedCountyId?.toString();
+        const tempCount = tempCountSt?.substring(2, 5);
+        const tractCountyId = countyid || tempCount
+        // console.log(  " tractCountyId ",tractCountyId, " tempCount ",tempCount);
+        // console.log("selectedCountyId ", tempCount, " ", selectedCountyId, " tractCountyId ",tractCountyId);
+        const filteredTracts = data.features.filter(
+          (feature: any) => feature?.properties?.COUNTYFP === tractCountyId
+        );
+        const geojson = {
+          type: "FeatureCollection",
+          features: filteredTracts,
+        };
+        console.log("geojson ", geojson);
+
+        setCensusTractData(geojson); // Save data to state
+
+        //     // Zoom to the first feature of the filtered data
+        // if (filteredTracts.length > 0) {
+        //   const coordinates = filteredTracts[0].geometry.coordinates[0][0];
+        //   mapRef.current?.flyTo({
+        //     center: [coordinates[0], coordinates[1]],
+        //     zoom: 10,
+        //     essential: true,
+        //   });
+        // }
+
+        // const coordinatesForZoom = data.features[0].geometry.coordinates[0][0];
+        // console.log("coordinatesForZoom", coordinatesForZoom);
+        // if (mapRef.current) {
+        //   mapRef.current.flyTo({
+        //     center: [coordinatesForZoom[0], coordinatesForZoom[1]],
+        //     zoom: 9,
+        //     essential: true,
+        //   });
+        // }
+      }
+    } catch (error) {
+      console.error("Error fetching census tract data:", error);
+    } finally {
+      setCensusTractDataLoading(false); // End loading
+    }
+  };
+
+  // console.log("censusClick ",selectedCensusTractId);
+
+  // console.log(" selectedClinicData ",selectedClinicData)
+
+  return (
+    <div className="h-screen w-full relative">
+      {/* Heatmap Toggle Button */}
+      <button
+        className="absolute top-8 left-4 bg-white shadow-md p-2 rounded-md z-10 hover:bg-gray-200 transition disabled:cursor-not-allowed"
+        onClick={toggleHeatmapVisibility}
+        disabled={heatmapLoading} // Disable button while loading
+        title="Toggle Heatmap"
+        style={{
+          border: "1px solid rgba(0, 0, 0, 0.15)",
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.15)",
+        }}
+      >
+        {heatmapLoading ? (
+          <>
+            <Loader className="w-4 h-4 animate-spin" />
+          </>
+        ) : (
+          <SunDim
+            className={`w-4 h-4 ${
+              heatmapVisible ? "text-red-700" : "text-gray-700"
+            }`}
+          />
+        )}
+      </button>
+
+      {/* School Markers Toggle Button */}
+      <button
+        className="absolute top-20 left-4 bg-white shadow-md p-2 rounded-md z-10 hover:bg-gray-200 transition"
+        onClick={toggleSchoolMarkers}
+        title="Toggle School Markers"
+        style={{
+          border: "1px solid rgba(0, 0, 0, 0.15)",
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.15)",
+        }}
+      >
+        {schoolDataLoading ? (
+          <>
+            <Loader className="w-4 h-4 animate-spin" />
+          </>
+        ) : (
+          <>
+            <School
+              className={`w-4 h-4 ${
+                schoolMarkersVisible ? "text-blue-700" : "text-gray-700"
+              }`}
+            />
+          </>
+        )}
+      </button>
+
+      {/* Clinic Markers Toggle Button */}
+      <button
+        className={`absolute top-32 left-4 bg-white shadow-md p-2 rounded-md z-10 hover:bg-gray-200 transition disabled:opacity-50 disabled:cursor-wait`}
+        onClick={toggleClinicMarkers}
+        title="Toggle Clinic Markers"
+        disabled={clinicDataLoading}
+        style={{
+          border: "1px solid rgba(0, 0, 0, 0.15)",
+          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.15)",
+        }}
+      >
+        {clinicDataLoading ? (
+          <>
+            <Loader className="w-4 h-4 animate-spin" />
+          </>
+        ) : (
+          <>
+            <Stethoscope
+              className={`w-4 h-4 ${
+                clinicMarkersVisible ? "text-green-700" : "text-gray-700"
+              }`}
+            />
+          </>
+        )}
+      </button>
+
+      {/* Button to fetch census tract data */}
+      <button
+        className={`absolute top-44 left-4 bg-white shadow-md p-2 rounded-md z-10 hover:bg-gray-200 transition disabled:opacity-50 disabled:cursor-wait`}
+        // onClick={fetchCensusTractData}
+        onClick={() => {
+          setCensusTractDataVisible((prev) => !prev);
+        }}
+        disabled={censusTractDataLoading} // Disable button while loading
+      >
+        {censusTractDataLoading ? (
+          <>
+            <Loader className="w-4 h-4 animate-spin" />
+          </>
+        ) : (
+          <>
+            <ChartNoAxesColumnIncreasing
+              className={`w-4 h-4 ${
+                clinicMarkersVisible ? "text-blue-800" : "text-gray-700"
+              }`}
+            />
+          </>
+        )}
+      </button>
+
+      {censusTractDataVisible && (
+        <>
+          <div className="absolute bottom-12 right-4 bg-white shadow-md p-2 rounded-md z-10">
+            <select
+              name="census-tract-state"
+              id="census-tract-state"
+              onChange={(e) => {
+                console.log("e ", e.target.value);
+                fetchCensusTractData(e.target.value);
+              }}
+            >
+              <option value="">Select a state to view census tract data</option>
+              {stateData.map((state) => (
+                <option key={state.label} value={state.value}>
+                  {state.label}
+                </option>
+              ))}
+            </select>
+          </div>
+        </>
+      )}
+
+      <Map
+        mapboxAccessToken={MAPBOX_TOKEN}
+        initialViewState={{
+          longitude: -101.3551675,
+          latitude: 39.5189233,
+          zoom: 3,
+        }}
+        mapStyle="mapbox://styles/mapbox/streets-v12"
+        // interactiveLayerIds={["state-layer", "county-layer"]}
+        interactiveLayerIds={[
+          "state-layer",
+          "county-layer",
+          "heatmap-layer",
+          "census-tract-layer",
+        ]}
+        onMouseMove={(event) => {
+          // console.log("event.features  ",event.features);
+          if (event.features) {
+            const stateFeature = event.features.find(
+              (f: any) => f.layer.id === "state-layer"
+            );
+            const countyFeature = event.features.find(
+              (f: any) => f.layer.id === "county-layer"
+            );
+
+            const heatMapFeature = event.features.find(
+              (f: any) => f.layer.id === "heatmap-layer"
+            );
+
+            if (stateFeature) {
+              handleHover(event); // State hover handler
+            }
+
+            if (countyFeature) {
+              // console.log("countyFeature ",countyFeature)
+              handleCountyHover(event); // County hover handler
+            }
+
+            const censusTractFeature = event.features.find(
+              (f: any) => f.layer.id === "census-tract-layer"
+            );
+            // console.log("event ",event);
+
+            if (censusTractFeature) {
+              // console.log("censusTractFeature ",censusTractFeature)
+              handleCensusTractHover(event, censusTractFeature); // County hover handler
+            }
+          }
+        }}
+        onClick={(event) => {
+          if (event.features) {
+            // console.log("event.features ",event.features);
+            const stateFeature = event.features.find(
+              (f: any) => f.layer.id === "state-layer"
+            );
+            const countyFeature = event.features.find(
+              (f: any) => f.layer.id === "county-layer"
+            );
+
+            const heatMapFeature = event.features.find(
+              (f: any) => f.layer.id === "heatmap-layer"
+            );
+            console.log("heatMapFeature ", heatMapFeature);
+
+            const censusTractFeature = event.features.find(
+              (f: any) => f.layer.id === "census-tract-layer"
+            );
+            // console.log("censusTractFeature ",censusTractFeature);
+
+            if (countyFeature) {
+              handleCountyClick(event); // Handle county click
+            } else if (stateFeature) {
+              handleClick(event); // Handle state click
+            }
+
+            if (censusTractFeature) {
+              console.log("censusTractFeature ", censusTractFeature);
+              handleCensusTractClick(event, censusTractFeature); // Handle county click
+            }
+
+          }
+        }}
+        onLoad={(event) => {
+          mapRef.current = event.target; // Save map instance
+          // mapRef.current.moveLayer("county-borders", "county-fill-layer");
+        }}
+        onMove={debounce(() => {
+          if (mapRef.current) {
+            const bounds = mapRef.current.getBounds();
+            debouncedFetchClinics(bounds);
+            debouncedFetchSchools(bounds);
+          }
+        }, 300)} // Debounced map move handler
+        onZoom={handleZoomChange}
+        // disable the default attribution
+        attributionControl={false}
+        ref={mapRefs}
+      >
+        <NavigationControl position="bottom-left" />
+        <AttributionControl customAttribution="Map design by Lalman Thakur" />
+        <FullscreenControl />
+        <GeolocateControl />
+        {/* <ScaleControl /> */}
+
+        {/* GeoJSON Source for States */}
+        <Source
+          id="state-data"
+          type="geojson"
+          data="https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json"
+        >
+          {/* State Layer */}
+          <Layer
+            id="state-layer"
+            type="fill"
+            paint={{
+              "fill-color": [
+                "case",
+                ["==", ["id"], hoveredStateId],
+                "#1107e2", // Highlight color when hovered
+                "transparent", // Default color
+              ],
+              "fill-opacity": 0.1,
+            }}
+          />
+          <Layer
+            id="state-borders"
+            type="line"
+            paint={{
+              "line-color": "#0984e3",
+              "line-width": 1,
+            }}
+          />
+        </Source>
+
+        {/* GeoJSON Source for Filtered Counties */}
+        {filteredData && (
+          <Source id="county-data" type="geojson" data={filteredData}>
+            <Layer
+              id="county-layer"
+              type="fill"
+              paint={{
+                "fill-color": [
+                  "case",
+                  ["==", ["id"], selectedCountyId],
+                  "transparent", // Highlight color for the selected county
+                  ["==", ["id"], hoveredCountyId],
+                  "#e20707", // Highlight color for the hovered county
+                  "transparent", // Default color for other counties
+                ],
+                "fill-opacity": 0.1,
+              }}
+            />
+            <Layer
+              id="county-borders"
+              type="line"
+              paint={{
+                // "line-color": "#0e07e2",
+                // "line-width": 1.5,
+                "line-color": [
+                  "case",
+                  ["==", ["id"], selectedCountyId],
+                  "#ffcc00", // Highlight color for the selected county
+                  ["==", ["id"], hoveredCountyId],
+                  "#e20707", // Highlight color for the hovered county
+                  "#0e07e2", // Default color for other counties
+                ],
+                "line-width": [
+                  "case",
+                  ["==", ["id"], selectedCountyId],
+                  2.4, // Highlight width for the selected county
+                  ["==", ["id"], hoveredCountyId],
+                  1.6, // Highlight width for the hovered county
+                  1, // Default width for other counties
+                ],
+              }}
+            />
+          </Source>
+        )}
+
+        <HeatmapLayer
+          heatmapData={heatmapData}
+          heatmapVisible={heatmapVisible}
+        />
+
+        {/* Legend */}
+        {legendVisible && (
+          <div
+            className="absolute bottom-10 right-4 bg-white shadow-md p-2 rounded-md z-10"
+            style={{ width: "220px" }}
+          >
+            <h4 className="text-sm font-bold">Attractiveness Legend</h4>
+
+            <div className="flex items-center justify-between">
+              <div
+                className="w-6 h-6"
+                style={{ background: "rgba(244, 236, 247, 0.8)" }}
+              ></div>
+              <span>0-2</span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div
+                className="w-6 h-6"
+                style={{ background: "rgb(189, 201, 225)" }}
+              ></div>
+              <span>2-4</span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div
+                className="w-6 h-6"
+                style={{ background: "rgb(116, 169, 207)" }}
+              ></div>
+              <span>4-6</span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div
+                className="w-6 h-6"
+                style={{ background: "rgb(43, 140, 190)" }}
+              ></div>
+              <span>6-8</span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div
+                className="w-6 h-6"
+                style={{ background: "rgb(4, 90, 141)" }}
+              ></div>
+              <span>8-9</span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div
+                className="w-6 h-6"
+                style={{ background: "rgb(33, 102, 172)" }}
+              ></div>
+              <span>9-10</span>
+            </div>
+          </div>
+        )}
+
+        {censusTractData && (
+          <Source id="census-tract-data" type="geojson" data={censusTractData}>
+            <Layer
+              id="census-tract-layer"
+              type="fill"
+              paint={{
+                "fill-color": "#ffcc00",
+                "fill-opacity": 0.15,
+              }}
+            />
+            <Layer
+              id="census-tract-borders"
+              type="line"
+              paint={{
+              
+                "line-color": [
+                  "case",
+                  ["==", ["id"], hoverCensusTractId],
+                  "#e20707", // Highlight color for the hovered county
+                  ["==", ["id"], selectedCensusTractId],
+                  "#a344ad", // Highlight color for the selected county
+                  "#ff9900", // Default color for other counties
+                ],
+                "line-width": [
+                  "case",
+                  ["==", ["id"], hoverCensusTractId],
+                  2, // Highlight width for the hovered county
+                  ["==", ["id"], selectedCensusTractId],
+                  3, // Highlight width for the selected county
+                  1, // Default width for other counties
+                ],
+                "line-color-transition": {
+                  duration: 300,
+                  delay: 0,
+                },
+              }}
+            />
+
+       
+            <Layer
+              id="census-tract-labels"
+              type="symbol"
+              layout={{
+                "text-field": ["get", "NAME"], // Assuming 'NAME' is the property for tract names
+                "text-size": 11, // Adjust text size as needed
+                "text-anchor": "center",
+                "text-justify": "center",
+                "text-font": ["Arial Unicode MS Bold"], // Use a bold or semibold font if available
+              }}
+              paint={{
+                "text-color": "#ff0000", // Red color for text
+                "text-halo-color": "#fff", // Optional halo for better visibility
+                "text-halo-width": 1,
+              }}
+              minzoom={6} // Labels appear at zoom >= 8.5
+              maxzoom={18} // Optional: Labels disappear at zoom > 11
+            />
+          </Source>
+        )}
+
+        {currentZoom > 8 &&
+          schoolMarkersVisible &&
+          schoolData?.map((school, index) => {
+            if (school.lnt === undefined || school?.lat === undefined) {
+              // console.log("school", school, " i ", index);
+              return null;
+            }
+            return (
+              <Marker
+                key={school._id}
+                longitude={Number(school?.lnt)}
+                latitude={Number(school?.lat)}
+                anchor="center"
+                onClick={(e) => {
+                  e.originalEvent.stopPropagation();
+                  setPlaceDetails({
+                    PlaceType: "school",
+                    ...school,
+                  });
+                  setActiveTab(Tab.Place);
+                  setSelectedSchoolName(school?.name);
+                  const coordinates = [school?.lnt, school?.lat];
+                  setSelectedSchoolCoordinates(coordinates);
+                }}
+              >
+                <div
+                  className="bg-white p-1 rounded-full shadow-md hover:shadow-lg cursor-pointer"
+                  title={school.name}
+                  style={{
+                    border: "1px solid #34A853",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    width: "22px",
+                    height: "22px",
+                  }}
+                >
+                  <School className="w-3 h-3 text-blue-700" />
+                </div>
+              </Marker>
+            );
+          })}
+
+        {/* Clinic Markers Layer */}
+        {currentZoom > 8 &&
+          clinicMarkersVisible &&
+          clinicData?.map((clinic, index) => {
+            if (
+              clinic.geometry?.location?.lng === undefined ||
+              clinic.geometry?.location?.lat === undefined
+            ) {
+              // console.log("clinic", clinic, " i ", index);
+              return null;
+            }
+            return (
+              <Marker
+                key={clinic._id}
+                longitude={Number(clinic.geometry?.location?.lng)}
+                latitude={Number(clinic.geometry?.location?.lat)}
+                anchor="center"
+                onClick={(e) => {
+                  e.originalEvent.stopPropagation(); // Prevent triggering map's click event
+                  setSelectedClinicName(clinic?.name);
+                  // setSelectedClinicName(clinic);
+                  // setClinicData
+                  setPlaceDetails({
+                    PlaceType: "clinic",
+                    ...clinic,
+                  });
+                  // setActiveTab(Tab.Place);
+                  const coordinates = [
+                    clinic.geometry?.location?.lng,
+                    clinic.geometry?.location?.lat,
+                  ];
+                  setSelectedClinicCoordinates(coordinates);
+                }}
+              >
+                <div
+                  className="bg-white p-1 rounded-full shadow-md hover:shadow-lg cursor-pointer"
+                  title={clinic.name}
+                  style={{
+                    border: "1px solid #34A853",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    width: "22px",
+                    height: "22px",
+                  }}
+                >
+                  <Stethoscope className="w-3 h-3 text-green-700" />
+                </div>
+              </Marker>
+            );
+          })}
+
+        {selectedClinicName &&
+          selectedClinicName?.length > 0 &&
+          selectedClinicCoordinates &&
+          selectedClinicCoordinates?.length > 0 && (
+            // @ts-ignore
+            <Popup
+              longitude={selectedClinicCoordinates[0]}
+              latitude={selectedClinicCoordinates[1]}
+              closeOnClick={false}
+              onClose={() => {
+                setSelectedClinicName("");
+                // setSelectedClinicData(null);
+                setSelectedClinicCoordinates(null);
+              }}
+              offset={[0, -15]}
+              className="z-50 border-2  border-sky-500 p-4 border-solid bg-white"
+            >
+              <div className="text-sm font-medium">{selectedClinicName}</div>
+              <div>{placeDetails?.formatted_address}</div>
+              <div className="text-blue-500 hover:text-blue-700">
+                <Link href={`tel:${placeDetails?.formatted_phone_number}`}>
+                  {placeDetails?.formatted_phone_number}
+                </Link>
+              </div>
+              <div className="text-blue-500 hover:text-blue-700 w-min">
+                {/* <Link href={ placeDetails?.website}>
+                  {placeDetails && typeof placeDetails?.website === "string" && placeDetails?.website?.length>0
+                  && placeDetails?.website?.slice(0, 20)} ...
+                </Link> */}
+                {placeDetails &&
+                typeof placeDetails?.website === "string" &&
+                placeDetails?.website?.length > 0 ? (
+                  <Link href={placeDetails?.website}>
+                    {placeDetails?.website?.slice(0, 30)}
+                  </Link>
+                ) : null}
+              </div>
+              <div>
+                {placeDetails?.rating ? (
+                  <>Rating : {placeDetails?.rating}</>
+                ) : null}
+              </div>
+              {/* <div>{placeDetails?.user_ratings_total}</div> */}
+            </Popup>
+          )}
+
+        {selectedSchoolName &&
+          selectedSchoolName?.length > 0 &&
+          selectedSchoolCoordinates &&
+          selectedSchoolCoordinates?.length > 0 && (
+            // @ts-ignore
+            <Popup
+              longitude={selectedSchoolCoordinates[0]}
+              latitude={selectedSchoolCoordinates[1]}
+              closeOnClick={false}
+              onClose={() => {
+                setSelectedSchoolName("");
+                setSelectedSchoolCoordinates(null);
+              }}
+              offset={[0, -15]}
+            >
+              <div className="text-sm font-medium">{selectedSchoolName}</div>
+            </Popup>
+          )}
+
+        {/* Popup for Hovered State */}
+        {!schoolMarkersVisible &&
+          !clinicMarkersVisible &&
+          hoveredStateId &&
+          hoveredStateCoordinates &&
+          !isNaN(hoveredStateCoordinates[0]) &&
+          !isNaN(hoveredStateCoordinates[1]) && (
+            <Popup
+              longitude={hoveredStateCoordinates[0]}
+              latitude={hoveredStateCoordinates[1]}
+              closeButton={false}
+              closeOnClick={false}
+              anchor="bottom"
+              offset={[0, -10] as [number, number]}
+            >
+              <div className="text-sm font-medium text-gray-700">
+                State ID: {hoveredStateId} <br />
+                State Name: {hoverStateData.properties.name}
+              </div>
+            </Popup>
+          )}
+
+        {/* Popup for Hovered County */}
+        {!schoolMarkersVisible &&
+          !clinicMarkersVisible &&
+          hoveredCountyId &&
+          hoveredCountyCoordinates &&
+          !isNaN(hoveredCountyCoordinates[0]) &&
+          !isNaN(hoveredCountyCoordinates[1]) && (
+            <Popup
+              longitude={hoveredCountyCoordinates[0]}
+              latitude={hoveredCountyCoordinates[1]}
+              closeButton={false}
+              closeOnClick={false}
+              anchor="bottom"
+              offset={[0, -10] as [number, number]}
+            >
+              <div className="text-sm font-medium text-gray-700">
+                County ID: {hoveredCountyId}
+                <br />
+                County Name: {hoveredCountyData.properties.NAMELSAD}
+              </div>
+            </Popup>
+          )}
+      </Map>
+    </div>
+  );
+};
+
+export default MapboxLayout;
+
+interface Feature {
+  type: string;
+  properties: {
+    STATEFP: string;
+    COUNTYFP: string;
+    [key: string]: any;
+  };
+  geometry: {
+    type: string;
+    coordinates: number[][][];
+  };
+}
+
+interface FeatureCollection {
+  type: string;
+  crs: {
+    type: string;
+    properties: {
+      name: string;
+    };
+  };
+  features: Feature[];
+}
+
+interface DataBEntry {
+  location: {
+    lat: number;
+    lng: number;
+  };
+  name: string;
+  stateCode: string;
+  countyCode: string;
+  attractiveness: number;
+  geometry?: {
+    type: string;
+    coordinates: number[][][];
+  };
+}
+
+export const mergeData = (
+  dataA: FeatureCollection,
+  dataB: DataBEntry[]
+): DataBEntry[] => {
+  return dataB.map((entry) => {
+    const matchedFeature = dataA.features.find(
+      (feature) =>
+        feature.properties.STATEFP === entry.stateCode &&
+        feature.properties.COUNTYFP === entry.countyCode
+    );
+
+    if (matchedFeature) {
+      return { ...entry, geometry: matchedFeature.geometry };
+    }
+
+    return entry;
+  });
+};
+
+// Debounce utility
+function debounce(func: Function, delay: number) {
+  let timeout: NodeJS.Timeout;
+  return (...args: any[]) => {
+    if (timeout) clearTimeout(timeout);
+    timeout = setTimeout(() => func(...args), delay);
+  };
+}
